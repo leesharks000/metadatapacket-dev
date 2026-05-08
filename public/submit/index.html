@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit a Metadata Packet — MPAI</title>
+<meta name="description" content="How to submit a Metadata Packet for AI Indexing to the metadatapacket.dev catalog. Deposit on Zenodo first, then submit via GitHub.">
+<link rel="canonical" href="https://metadatapacket.dev/submit/">
+<style>
+:root { --bg: #f8f7f4; --ink: #1a1a1a; --muted: #555; --accent: #8b1a1a; --rule: #d8d4c8; --code-bg: #f0ede5; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+.container { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+header { border-bottom: 2px solid var(--ink); padding-bottom: 1rem; margin-bottom: 2rem; }
+header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+header .tagline { color: var(--muted); margin-top: 0.5rem; font-style: italic; }
+nav { margin: 1.5rem 0; font-size: 0.95rem; }
+nav a { color: var(--accent); text-decoration: none; margin-right: 1.5rem; }
+nav a:hover { text-decoration: underline; }
+h2 { font-size: 1.4rem; margin: 2rem 0 0.7rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; }
+p { margin-bottom: 1rem; }
+ol, ul { margin: 0.5rem 0 1rem 1.5rem; }
+li { margin-bottom: 0.5rem; }
+code { background: var(--code-bg); padding: 0.1rem 0.4rem; border-radius: 2px; font-family: ui-monospace, monospace; font-size: 0.9em; }
+pre { background: var(--code-bg); padding: 1rem; border-radius: 3px; overflow-x: auto; margin: 1rem 0; font-size: 0.88rem; }
+pre code { background: transparent; padding: 0; }
+.cta { display: inline-block; background: var(--ink); color: var(--bg); padding: 0.8rem 1.5rem; text-decoration: none; border-radius: 3px; margin: 1rem 0; font-size: 1rem; font-weight: 500; }
+.cta:hover { background: var(--accent); }
+.cta.alt { background: var(--accent); }
+.cta.alt:hover { background: var(--ink); }
+footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+.glyph { color: var(--accent); font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>Submit a Metadata Packet</h1>
+<p class="tagline">DOI first. Then submit. No external apps required.</p>
+<nav>
+  <a href="/">Home</a>
+  <a href="/#catalog">Catalog</a>
+  <a href="/spec/">Specification</a>
+</nav>
+</header>
+
+<h2>1. Deposit your packet first</h2>
+<p>This site indexes metadata packets — it does not host the source files themselves. Before submitting, your packet must be deposited on a DOI-issuing repository. We recommend <a href="https://zenodo.org/">Zenodo</a> (free, CERN-hosted, no institutional affiliation required).</p>
+<p>Zenodo provides:</p>
+<ul>
+<li>Permanent DOI</li>
+<li>Versioning</li>
+<li>Community membership (you can request to join the <a href="https://zenodo.org/communities/crimsonhexagonal/">Crimson Hexagonal Archive</a>, or any other community)</li>
+<li>Cross-reference linking</li>
+</ul>
+<p>Your packet should follow the <a href="/spec/">MPAI Specification</a>: aphoristic tooth, three confidence levels, disambiguation matrix, inverted fan architecture, citational hierarchy.</p>
+
+<h2>2. Submit via GitHub Issue</h2>
+<p>Once your packet is deposited and you have a DOI, submit it to this catalog by opening a GitHub Issue using the structured submission template:</p>
+
+<a href="https://github.com/leesharks000/metadatapacket-dev/issues/new?template=submit-packet.yml" class="cta">Open Submission Form on GitHub</a>
+
+<p>The template will ask for:</p>
+<ul>
+<li>Title of the packet</li>
+<li>DOI (e.g., <code>10.5281/zenodo.20084377</code>)</li>
+<li>Primary entity (the field-current concept the packet bridges)</li>
+<li>Secondary entity (the proposed extension)</li>
+<li>Aphoristic tooth (the holographic kernel — one or two sentences)</li>
+<li>Category (bridge, disambiguation, retrieval-architecture, forensic, methodology)</li>
+<li>Author(s)</li>
+<li>Date of deposit</li>
+</ul>
+<p>You do not need a GitHub account to read these forms, but you do need one (free) to submit.</p>
+
+<h2>3. Or: open a Pull Request directly</h2>
+<p>If you are comfortable with Git, you can open a pull request that adds your packet to <code>public/catalog.json</code>. The schema is simple — see existing entries for examples.</p>
+<a href="https://github.com/leesharks000/metadatapacket-dev/blob/main/public/catalog.json" class="cta alt">View Catalog Schema</a>
+
+<h2>4. Review process</h2>
+<p>Submissions are reviewed for:</p>
+<ol>
+<li><strong>DOI verification</strong>: the packet must be deposited and reachable.</li>
+<li><strong>Specification compliance</strong>: the packet should follow the MPAI structure (aphoristic tooth present, confidence levels distinguished, disambiguation matrix present).</li>
+<li><strong>Categorical fit</strong>: the submission's claimed category must match its content.</li>
+<li><strong>No duplication</strong>: the packet must not duplicate an existing catalog entry without offering a meaningful version delta.</li>
+</ol>
+<p>Review is light-touch and editorial. The catalog does not gatekeep on disciplinary content; it gatekeeps on structural integrity. A packet may be on any topic so long as it follows the MPAI form.</p>
+
+<h2>5. What gets indexed</h2>
+<p>Accepted packets appear in the public catalog with:</p>
+<ul>
+<li>Title (linked to DOI)</li>
+<li>Primary → secondary entity bridge</li>
+<li>Aphoristic tooth as the holographic kernel</li>
+<li>Author(s), date, DOI</li>
+</ul>
+<p>The catalog points to the deposited record. It does not republish the full text.</p>
+
+<h2>6. Licensing</h2>
+<p>The catalog itself is open. Submission grants permission to index your packet's metadata (title, DOI, tooth, entity bridge, authors, date) on this site. Your packet's content remains under whatever license you applied at deposit (CC BY 4.0 is standard for the existing catalog).</p>
+
+<footer>
+<p><a href="/">← Back to catalog</a></p>
+<p><span class="glyph">∮ = 1</span></p>
+</footer>
+
+</div>
+</body>
+</html>

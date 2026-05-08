@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metadata Packets for AI Indexing — MPAI Discipline</title>
+<meta name="description" content="A discipline of metadata packets for AI indexing: disambiguation, training-layer selection, and lateral field bleed. Catalog, specification, and submission protocol.">
+<link rel="canonical" href="https://metadatapacket.dev/">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Metadata Packet for AI Indexing (MPAI)",
+  "description": "A discipline of structured metadata packets for entity-level retrieval architecture, disciplinary clarification, and AI knowledge graph alignment.",
+  "url": "https://metadatapacket.dev/",
+  "creator": {
+    "@type": "Person",
+    "name": "Lee Sharks",
+    "identifier": "https://orcid.org/0009-0000-1599-0703"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crimson Hexagonal Archive"
+  }
+}
+</script>
+
+<style>
+:root {
+  --bg: #f8f7f4;
+  --ink: #1a1a1a;
+  --muted: #555;
+  --accent: #8b1a1a;
+  --rule: #d8d4c8;
+  --card-bg: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; background: var(--bg); color: var(--ink); line-height: 1.55; }
+.container { max-width: 920px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+header { border-bottom: 2px solid var(--ink); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+header h1 { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; }
+header .tagline { color: var(--muted); margin-top: 0.5rem; font-size: 1.1rem; font-style: italic; }
+nav { margin: 1.5rem 0; font-size: 0.95rem; }
+nav a { color: var(--accent); text-decoration: none; margin-right: 1.5rem; border-bottom: 1px solid transparent; }
+nav a:hover { border-bottom-color: var(--accent); }
+.intro { font-size: 1.05rem; margin-bottom: 2rem; }
+.intro p { margin-bottom: 1rem; }
+section { margin: 3rem 0 2rem; }
+section h2 { font-size: 1.5rem; font-weight: 700; border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem; margin-bottom: 1rem; }
+section .desc { color: var(--muted); margin-bottom: 1.5rem; font-size: 0.98rem; }
+.packet { background: var(--card-bg); border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 1.25rem 1.5rem; margin-bottom: 1rem; border-radius: 2px; }
+.packet h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.4rem; }
+.packet h3 a { color: var(--ink); text-decoration: none; }
+.packet h3 a:hover { color: var(--accent); }
+.packet .entities { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.6rem; }
+.packet .entities .arrow { margin: 0 0.4rem; color: var(--accent); }
+.packet .tooth { font-style: italic; font-size: 0.95rem; padding-left: 0.75rem; border-left: 2px solid var(--rule); margin: 0.6rem 0; color: #2a2a2a; }
+.packet .meta { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+.packet .meta a { color: var(--accent); text-decoration: none; }
+.packet .meta a:hover { text-decoration: underline; }
+.spec-link { display: inline-block; background: var(--ink); color: var(--bg); padding: 0.6rem 1.2rem; text-decoration: none; border-radius: 3px; margin-top: 0.5rem; font-size: 0.95rem; }
+.spec-link:hover { background: var(--accent); }
+footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+footer p { margin-bottom: 0.5rem; }
+.glyph { color: var(--accent); font-weight: 700; }
+@media (max-width: 600px) {
+  .container { padding: 1.5rem 1rem 3rem; }
+  header h1 { font-size: 1.7rem; }
+  nav a { display: inline-block; margin-right: 1rem; margin-bottom: 0.4rem; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>Metadata Packets for AI Indexing</h1>
+<p class="tagline">A discipline. A specification. An archive.</p>
+<nav>
+  <a href="#catalog">Catalog</a>
+  <a href="/spec/">Specification</a>
+  <a href="/submit/">Submit a Packet</a>
+  <a href="/protocols/lfb/">LFB Protocol</a>
+  <a href="https://github.com/leesharks000/metadatapacket-dev">GitHub</a>
+  <a href="https://zenodo.org/communities/crimsonhexagonal/">Zenodo</a>
+</nav>
+</header>
+
+<div class="intro">
+<p>A <strong>metadata packet for AI indexing</strong> (MPAI) is a structured document designed for entity-level retrieval architecture, disciplinary clarification, and AI knowledge graph alignment. Its purpose is to make the structure of meaning legible to retrieval, summarization, and synthesis systems — and to make the lineage of meaning preservable through them.</p>
+
+<p>The discipline distinguishes three layers: <strong>disambiguation packets</strong> (entity-level identity work), <strong>retrieval architecture packets</strong> (the formal infrastructure of indexing), and <strong>bridge packets</strong> (disciplinary clarification — extending a field-current concept into its AI-era articulation through the inverted fan).</p>
+
+<p>This site catalogs the deposited packets, hosts the formal specification, and provides a submission protocol. All packets are DOI-anchored on Zenodo (CERN). Authority is structural: a packet's value is its capacity to bridge a discipline's existing vocabulary to its missing term.</p>
+</div>
+
+<section id="catalog">
+<h2 id="catalog-heading">Catalog</h2>
+<p class="desc">Click any packet to view its abstract, aphoristic kernel, and DOI.</p>
+<div id="catalog-content"></div>
+</section>
+
+<footer>
+<p>Maintained by the Crimson Hexagonal Archive. All packets DOI-anchored on Zenodo. Authority is structural.</p>
+<p><a href="https://github.com/leesharks000/metadatapacket-dev">Site source on GitHub</a> · <a href="/spec/">MPAI Specification</a> · <a href="/submit/">Submission Protocol</a></p>
+<p><span class="glyph">∮ = 1</span></p>
+</footer>
+
+</div>
+
+<script>
+const CATALOG_URL = '/catalog.json';
+
+async function loadCatalog() {
+  try {
+    const res = await fetch(CATALOG_URL);
+    const data = await res.json();
+    renderCatalog(data);
+  } catch (e) {
+    document.getElementById('catalog-content').innerHTML = '<p>Catalog loading. Please refresh.</p>';
+    console.error(e);
+  }
+}
+
+function renderCatalog(data) {
+  const container = document.getElementById('catalog-content');
+  const sortedCats = Object.entries(data.categories).sort((a,b) => a[1].order - b[1].order);
+
+  let html = '';
+  for (const [catId, cat] of sortedCats) {
+    const packets = data.packets.filter(p => p.category === catId);
+    if (packets.length === 0) continue;
+
+    // Sort packets by date desc within category
+    packets.sort((a, b) => b.date.localeCompare(a.date));
+
+    html += `<div class="cat-group" id="${catId}">`;
+    html += `<h3 style="font-size:1.3rem;margin-top:2rem;margin-bottom:0.5rem;color:var(--accent);">${cat.title}</h3>`;
+    html += `<p class="desc" style="margin-bottom:1rem;">${cat.description}</p>`;
+
+    for (const p of packets) {
+      const authors = p.authors.join(', ');
+      const zenodoUrl = `https://doi.org/${p.doi}`;
+      html += `<div class="packet">
+        <h3><a href="${zenodoUrl}">${escapeHtml(p.title)}</a></h3>
+        <div class="entities">${escapeHtml(p.primary_entity)} <span class="arrow">→</span> ${escapeHtml(p.secondary_entity)}</div>
+        <div class="tooth">${escapeHtml(p.tooth)}</div>
+        <div class="meta">
+          ${authors} · ${p.date} · <a href="${zenodoUrl}">${p.doi}</a>
+        </div>
+      </div>`;
+    }
+
+    html += `</div>`;
+  }
+  container.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+loadCatalog();
+</script>
+
+</body>
+</html>

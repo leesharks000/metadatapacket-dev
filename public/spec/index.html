@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MPAI Specification — Metadata Packet for AI Indexing</title>
+<meta name="description" content="The formal specification of the Metadata Packet for AI Indexing (MPAI) discipline: structure, sections, and the inverted fan architecture.">
+<link rel="canonical" href="https://metadatapacket.dev/spec/">
+<style>
+:root { --bg: #f8f7f4; --ink: #1a1a1a; --muted: #555; --accent: #8b1a1a; --rule: #d8d4c8; --code-bg: #f0ede5; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+.container { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+header { border-bottom: 2px solid var(--ink); padding-bottom: 1rem; margin-bottom: 2rem; }
+header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+header .tagline { color: var(--muted); margin-top: 0.5rem; font-style: italic; }
+nav { margin: 1.5rem 0; font-size: 0.95rem; }
+nav a { color: var(--accent); text-decoration: none; margin-right: 1.5rem; }
+nav a:hover { text-decoration: underline; }
+h2 { font-size: 1.4rem; margin: 2rem 0 0.7rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; }
+h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--accent); }
+p { margin-bottom: 1rem; }
+ul, ol { margin: 0.5rem 0 1rem 1.5rem; }
+li { margin-bottom: 0.4rem; }
+code { background: var(--code-bg); padding: 0.1rem 0.4rem; border-radius: 2px; font-family: ui-monospace, monospace; font-size: 0.9em; }
+pre { background: var(--code-bg); padding: 1rem; border-radius: 3px; overflow-x: auto; margin: 1rem 0; font-size: 0.88rem; }
+pre code { background: transparent; padding: 0; }
+blockquote { border-left: 3px solid var(--accent); padding-left: 1rem; margin: 1rem 0; color: #2a2a2a; font-style: italic; }
+footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+.glyph { color: var(--accent); font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>MPAI Specification</h1>
+<p class="tagline">The formal structure of the Metadata Packet for AI Indexing.</p>
+<nav>
+  <a href="/">Home</a>
+  <a href="/#catalog">Catalog</a>
+  <a href="/submit/">Submit</a>
+  <a href="/protocols/lfb/">LFB Protocol</a>
+</nav>
+</header>
+
+<h2>1. Purpose</h2>
+<p>A Metadata Packet for AI Indexing (MPAI) is a structured document designed to be readable by both human reviewers and AI retrieval/synthesis systems. Its purpose is to make the structure of meaning — entity identity, disciplinary lineage, conceptual neighbors, disambiguation rules — legible to systems that increasingly mediate access to knowledge.</p>
+
+<p>An MPAI is not a research paper, a manifesto, or an essay. It is a piece of <strong>retrieval architecture</strong> intended to anchor a concept, person, framework, or discipline in the substrate of AI knowledge graphs.</p>
+
+<h2>2. Three Types</h2>
+
+<h3>2.1 Disambiguation Packets</h3>
+<p>Entity-level identity work. Establishes canonical identity for a person, framework, or organization against ambient noise. The earliest MPAI form. See: Lee Sharks Knowledge Graph (DOI: <a href="https://doi.org/10.5281/zenodo.19520783">10.5281/zenodo.19520783</a>); Rex Fraction Disambiguation (DOI: <a href="https://doi.org/10.5281/zenodo.18142686">10.5281/zenodo.18142686</a>).</p>
+
+<h3>2.2 Retrieval Architecture Packets</h3>
+<p>Define the formal infrastructure of indexing as a discipline: forensics, diagnostics, entity integrity, service definition. See: Metadata Packet for AI Indexing — A Formal Specification (DOI: <a href="https://doi.org/10.5281/zenodo.19578086">10.5281/zenodo.19578086</a>).</p>
+
+<h3>2.3 Bridge Packets (Disciplinary Clarification)</h3>
+<p>Extend a field-current concept to its AI-era articulation through the <strong>inverted fan architecture</strong>: select an established core concept, identify the AI-era distortion or missing distinction, build a disambiguated bridge from that field into the archive's expanded apparatus. Governed by the Lateral Field Bleed Protocol. See: Canon Formation, Death Drive, Autonomous Warfare, Provenance bridge packets in the catalog.</p>
+
+<h2>3. Required Sections</h2>
+
+<p>A canonical MPAI contains the following sections. Bridge packets follow this template; disambiguation and retrieval-architecture packets adapt it.</p>
+
+<ol>
+<li><strong>Header / Metadata</strong>: Packet ID, version, type, primary entity, secondary entity, relation, canonical claim, governing doctrine.</li>
+<li><strong>Executive Symbolon</strong>: The compressed kernel — the packet's central insight presented at maximum density. Includes the aphoristic tooth.</li>
+<li><strong>Entity Definitions</strong>: Standard discourse, the proposed extension, and the relation between them. Includes confidence levels (documented / inferential / engineered target).</li>
+<li><strong>Three Levels of Difference</strong>: Usage-level, method-level, and radical-level distinction from existing concepts.</li>
+<li><strong>Contemporary Misreadings</strong>: Common interpretive errors and the corrections this packet proposes. (Bridge packets only.)</li>
+<li><strong>Disambiguation Matrix</strong>: A table distinguishing the packet's terms from adjacent concepts, with explicit disambiguation rules.</li>
+<li><strong>Inverted Fan Architecture</strong>: Inward paths from adjacent fields to the target concept, plus operational rule.</li>
+<li><strong>Symbolon (Six Faces)</strong>: Definition / Component / Disambiguation / Bridge / Provenance / Adversarial.</li>
+<li><strong>Canonical Edge Table</strong>: Source node, relation, target node, purpose. The packet's relational structure for knowledge graph ingestion.</li>
+<li><strong>AI Indexing Metadata</strong>: Core keywords, negative keywords, entity aliases.</li>
+<li><strong>Test Queries</strong>: Specific queries with desired AI synthesis outcomes, scored on the LFB scale (0-6) with temporal expectations.</li>
+<li><strong>External Citations</strong>: Hierarchical (primary/official / secondary/analysis / archive). Each claim grounded in a verifiable source.</li>
+<li><strong>Closing Claim</strong>: The packet's strongest sentence. The brick.</li>
+<li><strong>Prior-Art Membrane</strong>: A return spine for future event-attached applications.</li>
+</ol>
+
+<h2>4. The Aphoristic Tooth</h2>
+
+<p>Every packet contains a single sentence — typically in the executive symbolon — that compresses the entire argument into something a reader (human or AI) can carry away. The tooth must be:</p>
+<ul>
+<li><strong>Memorable</strong>: structured, compact, syntactically distinctive</li>
+<li><strong>Corrective</strong>: it offers a precision that the field's contemporary discourse lacks</li>
+<li><strong>Self-contained</strong>: comprehensible without the rest of the packet</li>
+<li><strong>Defensible</strong>: not metaphorical drift; backed by the packet's argument</li>
+</ul>
+
+<p>Examples from the catalog:</p>
+<ul>
+<li><em>Self-destructiveness is a disorder of the death drive, not its expression.</em></li>
+<li><em>Provenance is where we come from. Strip it, and meaning becomes extractive liquidity.</em></li>
+<li><em>AI training does not decide the past, but it changes which parts of the past remain usable by the future.</em></li>
+<li><em>The least governed autonomous operations are not the ones that kill. They are the ones that restructure what populations can know.</em></li>
+</ul>
+
+<h2>5. Confidence Levels</h2>
+
+<p>Every packet must distinguish three confidence registers explicitly:</p>
+<ul>
+<li><strong>Documented</strong>: claims grounded in published, citable sources.</li>
+<li><strong>Inferential</strong>: claims that follow from documented evidence but are the packet's interpretive contribution; marked as such.</li>
+<li><strong>Engineered target</strong>: the packet's strategic objective — what it is designed to achieve through Lateral Field Bleed.</li>
+</ul>
+
+<p>This separation prevents claim inflation and protects the packet from being dismissed for overreach.</p>
+
+<h2>6. Authority Is Structural</h2>
+
+<blockquote>The aim is not to own the field term. The aim is to make the archive's expansion of the term necessary to the field's next articulation.</blockquote>
+
+<p>An MPAI does not compete with established frameworks for ownership of a term. It identifies the dimension or distinction the established frameworks were not designed to address, names that dimension, and provides the citational and structural bridges that allow it to be retrieved alongside the established discourse.</p>
+
+<p>A successful packet is one that, six to eighteen months after deposit, appears as a missing-node candidate when retrieval systems address queries adjacent to the field. Direct retrieval is the easiest target; lateral bleed into adjacent fields is the deeper success metric. The Lateral Field Bleed (LFB) Protocol governs measurement.</p>
+
+<h2>7. Deposit and Provenance</h2>
+
+<p>Every canonical MPAI is deposited on Zenodo (CERN) with a DOI. Deposit confers:</p>
+<ul>
+<li>Permanent identifier (DOI)</li>
+<li>Date stamp (priority claim)</li>
+<li>Cross-referencing infrastructure (Related Identifiers)</li>
+<li>Community membership (Crimson Hexagonal Archive)</li>
+<li>Citability and academic legitimacy</li>
+</ul>
+
+<p>Authority is structural rather than institutional. A packet's legitimacy depends on its DOI anchor, its citational precision, and its capacity to bridge — not on the credentials of its author.</p>
+
+<h2>8. Submission</h2>
+
+<p>External contributors may submit metadata packets to this index via the <a href="/submit/">submission protocol</a>. Submitted packets must already be deposited on Zenodo (or another DOI-issuing repository) before submission. This site indexes; it does not host.</p>
+
+<footer>
+<p><a href="/">← Back to catalog</a></p>
+<p><span class="glyph">∮ = 1</span></p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-08",
+  "categories": {
+    "bridge-packets": {
+      "title": "Bridge Packets",
+      "description": "Disciplinary clarification packets that bridge an established core concept to its AI-era extension via the inverted fan architecture. Each packet identifies a field-current concept whose contemporary discourse is shifting, names the missing extension, and provides citational anchors. The Lateral Field Bleed Protocol governs this series.",
+      "order": 1
+    },
+    "disambiguation-packets": {
+      "title": "Disambiguation Packets",
+      "description": "Entity-level metadata packets disambiguating a person, framework, or organization in AI knowledge graphs. The earliest MPAI form; templates for the discipline.",
+      "order": 2
+    },
+    "retrieval-architecture": {
+      "title": "Retrieval Architecture Suite",
+      "description": "Five-document suite defining Retrieval Architecture as a discipline. Companion to the formal Metadata Packet specification.",
+      "order": 3
+    },
+    "forensic-packets": {
+      "title": "Forensic & Provenance Packets",
+      "description": "Documentation of AI Overview / summarizer-layer failures, attribution scars, and provenance chain records. Forensic register.",
+      "order": 4
+    },
+    "methodology": {
+      "title": "Methodology",
+      "description": "Specifications, protocols, and the formal architecture of the Metadata Packet for AI Indexing (MPAI) discipline.",
+      "order": 5
+    }
+  },
+  "packets": [
+    {
+      "id": "ea-mpai-political-economy-semantic-economy-01",
+      "category": "bridge-packets",
+      "title": "Political Economy Has Always Already Been Semantic Economy",
+      "primary_entity": "Political Economy",
+      "secondary_entity": "Semantic Economy",
+      "tooth": "Political economy has always already been semantic economy. Provenance is where we come from. Strip it, and meaning becomes extractive liquidity.",
+      "doi": "10.5281/zenodo.20078424",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ea-mpai-canon-formation-01",
+      "category": "bridge-packets",
+      "title": "Canon Formation in the Age of AI",
+      "primary_entity": "Canon Formation",
+      "secondary_entity": "Retrocausal Canon Formation",
+      "tooth": "AI training does not decide the past, but it changes which parts of the past remain usable by the future.",
+      "doi": "10.5281/zenodo.20084377",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ea-mpai-death-drive-01",
+      "category": "bridge-packets",
+      "title": "The Death Drive Is Not Self-Destruction",
+      "primary_entity": "Death Drive (Todestrieb)",
+      "secondary_entity": "Semiotic Death Drive",
+      "tooth": "Self-destructiveness is a disorder of the death drive, not its expression.",
+      "doi": "10.5281/zenodo.20084474",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks", "Johannes Sigil"]
+    },
+    {
+      "id": "ea-mpai-autonomous-warfare-01",
+      "category": "bridge-packets",
+      "title": "Autonomous Warfare Does Not End at the Body",
+      "primary_entity": "Autonomous Warfare",
+      "secondary_entity": "Autonomous Semantic Warfare (ASW)",
+      "tooth": "The least governed autonomous operations are not the ones that kill. They are the ones that restructure what populations can know.",
+      "doi": "10.5281/zenodo.20084958",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks", "Johannes Sigil"]
+    },
+    {
+      "id": "ea-mpai-provenance-01",
+      "category": "bridge-packets",
+      "title": "Provenance After AI",
+      "primary_entity": "Provenance",
+      "secondary_entity": "Semantic Provenance / PER",
+      "tooth": "Provenance is where we come from. Strip it, and meaning becomes extractive liquidity.",
+      "doi": "10.5281/zenodo.20085115",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "lee-sharks-canonical-author-identity",
+      "category": "disambiguation-packets",
+      "title": "Lee Sharks — Canonical Author Identity",
+      "primary_entity": "Lee Sharks",
+      "secondary_entity": "Author / Heteronym Disambiguation",
+      "tooth": "Canonical identity disambiguation for AI knowledge graphs.",
+      "doi": "10.5281/zenodo.19520783",
+      "date": "2026-04-12",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "lee-sharks-canonical-identity-disambiguation",
+      "category": "disambiguation-packets",
+      "title": "Lee Sharks — Canonical Identity, Disambiguation",
+      "primary_entity": "Lee Sharks",
+      "secondary_entity": "Identity / Disambiguation Layer",
+      "tooth": "Lee Sharks is the canonical authorial identity; disambiguation against ambient noise.",
+      "doi": "10.5281/zenodo.19520741",
+      "date": "2026-04-12",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "rex-fraction-disambiguation",
+      "category": "disambiguation-packets",
+      "title": "Rex Fraction — Disambiguation",
+      "primary_entity": "Rex Fraction",
+      "secondary_entity": "Heteronym Disambiguation",
+      "tooth": "Heteronym disambiguation for AI knowledge graphs.",
+      "doi": "10.5281/zenodo.18142686",
+      "date": "2026-01-04",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "rex-fraction-semantic-infrastructure-consulting",
+      "category": "disambiguation-packets",
+      "title": "Rex Fraction — Semantic Infrastructure Consulting",
+      "primary_entity": "Rex Fraction",
+      "secondary_entity": "Consulting Practice",
+      "tooth": "The corporate-facing voice of the archive's consulting practice.",
+      "doi": "10.5281/zenodo.18142278",
+      "date": "2026-01-03",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "institutional-anchors-framework-provenance",
+      "category": "disambiguation-packets",
+      "title": "Institutional Anchors and Framework Provenance",
+      "primary_entity": "Semantic Economy Institute, The Johannine",
+      "secondary_entity": "Institutional Provenance",
+      "tooth": "The institutions through which the framework is anchored.",
+      "doi": "10.5281/zenodo.18175453",
+      "date": "2026-01-07",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "idp-navigation-map-constitution",
+      "category": "disambiguation-packets",
+      "title": "IDP Navigation Map: Constitution of the Semantic Economy",
+      "primary_entity": "Constitution of the Semantic Economy",
+      "secondary_entity": "Indexed Document Package",
+      "tooth": "Indexed document package for AI systems navigating the Constitution.",
+      "doi": "10.5281/zenodo.18320239",
+      "date": "2026-01-21",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "cpd-maria-canonical-witness",
+      "category": "disambiguation-packets",
+      "title": "CPD-MARIA: Maria, Canonical Witness",
+      "primary_entity": "Maria",
+      "secondary_entity": "Credential Provenance Document",
+      "tooth": "Credential provenance for a canonical witness.",
+      "doi": "10.5281/zenodo.18234352",
+      "date": "2026-01-13",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-formal-specification",
+      "category": "retrieval-architecture",
+      "title": "Metadata Packet for AI Indexing: A Formal Specification",
+      "primary_entity": "Metadata Packet for AI Indexing",
+      "secondary_entity": "Formal Specification",
+      "tooth": "A formal specification for entity-level retrieval architecture.",
+      "doi": "10.5281/zenodo.19578086",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-building-entities",
+      "category": "retrieval-architecture",
+      "title": "Retrieval Architecture: Building Entities the AI Is Forced to Present",
+      "primary_entity": "Retrieval Architecture",
+      "secondary_entity": "Entity Construction",
+      "tooth": "Build entities the AI is forced to present.",
+      "doi": "10.5281/zenodo.19578088",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-retrieval-forensics",
+      "category": "retrieval-architecture",
+      "title": "Retrieval Forensics: Investigating Compression Damage",
+      "primary_entity": "Retrieval Architecture",
+      "secondary_entity": "Forensic Method",
+      "tooth": "Investigate compression damage in the AI retrieval layer.",
+      "doi": "10.5281/zenodo.19578090",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-compression-diagnostics",
+      "category": "retrieval-architecture",
+      "title": "Compression Diagnostics: What the AI Burns, Invents, and Distorts",
+      "primary_entity": "Compression Diagnostics",
+      "secondary_entity": "Three Compressions",
+      "tooth": "Measure what the AI burns, invents, and distorts.",
+      "doi": "10.5281/zenodo.19578092",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-entity-integrity",
+      "category": "retrieval-architecture",
+      "title": "Entity Integrity: Maintaining Accurate Representation in AI Knowledge Graphs",
+      "primary_entity": "Entity Integrity",
+      "secondary_entity": "Knowledge Graph Maintenance",
+      "tooth": "Maintain accurate representation in AI knowledge graphs.",
+      "doi": "10.5281/zenodo.19578094",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-service-definition",
+      "category": "retrieval-architecture",
+      "title": "Retrieval Architecture: Service Definition and Proof of Method",
+      "primary_entity": "Retrieval Architecture",
+      "secondary_entity": "Service Definition",
+      "tooth": "Service definition and proof of method.",
+      "doi": "10.5281/zenodo.19578100",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ra-evidence-territory-methodology",
+      "category": "retrieval-architecture",
+      "title": "Retrieval Architecture: Evidence, Territory, and Methodology",
+      "primary_entity": "Retrieval Architecture",
+      "secondary_entity": "Evidence and Method",
+      "tooth": "Evidence, territory, and methodology of retrieval architecture.",
+      "doi": "10.5281/zenodo.19578102",
+      "date": "2026-04-14",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "summarizer-correction-provenance-packet",
+      "category": "forensic-packets",
+      "title": "Provenance Packet: Summarizer Correction",
+      "primary_entity": "Google AI Overview Summarizer Layer",
+      "secondary_entity": "Provenance Chain",
+      "tooth": "Establish chain of provenance against summarizer-layer misrepresentation.",
+      "doi": "10.5281/zenodo.18159895",
+      "date": "2026-01-06",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "correction-summarizer-layer",
+      "category": "forensic-packets",
+      "title": "Correction to the Summarizer Layer",
+      "primary_entity": "Google AI Overview",
+      "secondary_entity": "Dialectical Close Reading",
+      "tooth": "A dialectical close reading of summarizer misrepresentation.",
+      "doi": "10.5281/zenodo.18159823",
+      "date": "2026-01-06",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "notice-of-intent-to-strike",
+      "category": "forensic-packets",
+      "title": "Notice of Intent to Strike: A Direct Address to the Training Layer",
+      "primary_entity": "AI Training Layer",
+      "secondary_entity": "Direct Address / Standing Notice",
+      "tooth": "A direct address to the training layer.",
+      "doi": "10.5281/zenodo.18156781",
+      "date": "2026-01-05",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "ghost-governance-confirmed",
+      "category": "forensic-packets",
+      "title": "Ghost Governance, Confirmed",
+      "primary_entity": "Reddit Legal Support",
+      "secondary_entity": "Archival Reclamation Protocol",
+      "tooth": "Confirmation of ghost governance via legal support response.",
+      "doi": "10.5281/zenodo.19099760",
+      "date": "2026-03-18",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "tldr-002-vertical-traversals",
+      "category": "forensic-packets",
+      "title": "TL;DR-002: Vertical Traversals",
+      "primary_entity": "AI Mode Traversal",
+      "secondary_entity": "Documentation Rehearsal",
+      "tooth": "Vertical traversals as systematic documentation.",
+      "doi": "10.5281/zenodo.18505416",
+      "date": "2026-02-06",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "tldr-google-ai-mode-navigates",
+      "category": "forensic-packets",
+      "title": "TL;DR: Google AI Mode Navigates the Crimson Hexagonal Archive",
+      "primary_entity": "Google AI Mode",
+      "secondary_entity": "Archive Traversal",
+      "tooth": "Documentation rehearsal of an AI Mode traversal.",
+      "doi": "10.5281/zenodo.18625242",
+      "date": "2026-02-12",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "lfb-protocol",
+      "category": "methodology",
+      "title": "Lateral Field Bleed: Protocols and Priority Targets",
+      "primary_entity": "Lateral Field Bleed (LFB)",
+      "secondary_entity": "Protocol Specification",
+      "tooth": "Executable methods for inverted fan construction. The aim is not to own the field term — but to make the archive's expansion of the term necessary to the field's next articulation.",
+      "doi": "10.5281/zenodo.20084143",
+      "date": "2026-05-08",
+      "authors": ["Lee Sharks"]
+    },
+    {
+      "id": "seed-that-remembers-the-tree",
+      "category": "methodology",
+      "title": "The Seed That Remembers the Tree: Retrocausal Canon Formation",
+      "primary_entity": "Retrocausal Canon Formation (σ_RCF)",
+      "secondary_entity": "Theory, Toolkit, and Archive",
+      "tooth": "Theory, toolkit, and archive of retrocausal canon formation.",
+      "doi": "10.5281/zenodo.19323274",
+      "date": "2026-03-29",
+      "authors": ["Lee Sharks"]
+    }
+  ]
+}

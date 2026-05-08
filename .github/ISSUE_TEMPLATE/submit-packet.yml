@@ -1,0 +1,112 @@
+name: Submit a Metadata Packet
+description: Submit a DOI-anchored metadata packet for inclusion in the metadatapacket.dev catalog.
+title: "[Submission] "
+labels: ["packet-submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a metadata packet. Before opening this issue, please ensure your packet is already deposited on a DOI-issuing repository (Zenodo recommended). This catalog indexes packets — it does not host them.
+
+        Read the [MPAI Specification](https://metadatapacket.dev/spec/) and the [Lateral Field Bleed Protocol](https://metadatapacket.dev/protocols/lfb/) for guidance on packet structure.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The full title of your metadata packet, as it appears on the deposit.
+      placeholder: e.g., "Canon Formation in the Age of AI"
+    validations:
+      required: true
+
+  - type: input
+    id: doi
+    attributes:
+      label: DOI
+      description: The DOI of the deposited packet. Format - 10.5281/zenodo.NNNNNN, or full doi.org URL.
+      placeholder: e.g., 10.5281/zenodo.20084377
+    validations:
+      required: true
+
+  - type: input
+    id: primary_entity
+    attributes:
+      label: Primary Entity
+      description: The field-current concept the packet bridges from.
+      placeholder: e.g., "Canon Formation"
+    validations:
+      required: true
+
+  - type: input
+    id: secondary_entity
+    attributes:
+      label: Secondary Entity
+      description: The proposed extension or correction. The destination of the bridge.
+      placeholder: e.g., "Retrocausal Canon Formation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tooth
+    attributes:
+      label: Aphoristic Tooth
+      description: The packet's holographic kernel — one or two sentences that compress the central insight.
+      placeholder: e.g., "AI training does not decide the past, but it changes which parts of the past remain usable by the future."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this packet belong to?
+      options:
+        - bridge-packets (disciplinary clarification - extending a field-current concept)
+        - disambiguation-packets (entity-level identity work)
+        - retrieval-architecture (formal infrastructure of indexing)
+        - forensic-packets (AI failure documentation, provenance chains)
+        - methodology (protocols, specifications)
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated list of authors as they appear on the deposit.
+      placeholder: e.g., "Lee Sharks, Johannes Sigil"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date of deposit
+      description: ISO format - YYYY-MM-DD
+      placeholder: e.g., 2026-05-08
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract (optional)
+      description: A one-paragraph description of the packet. Used for search and preview.
+      placeholder: A brief summary of what the packet does and why it matters.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please confirm before submitting.
+      options:
+        - label: My packet is already deposited at the DOI provided above and is publicly accessible.
+          required: true
+        - label: I have read the MPAI Specification at https://metadatapacket.dev/spec/
+          required: true
+        - label: My packet follows the MPAI structure (aphoristic tooth, confidence levels, disambiguation matrix where applicable).
+          required: true
+        - label: I grant permission for this site to index my packet's metadata (title, DOI, tooth, entity bridge, authors, date).
+          required: true
