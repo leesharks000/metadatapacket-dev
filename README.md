@@ -15,10 +15,13 @@ A static site that indexes metadata packets — structured documents designed fo
 ## Categories
 
 - **Bridge Packets** — disciplinary clarification, extending field-current concepts to AI-era articulations via the inverted fan
-- **Disambiguation Packets** — entity-level identity work (persons, frameworks, organizations)
-- **Retrieval Architecture Suite** — the formal infrastructure of indexing as a discipline
+- **Disambiguation Packets** — entity-level identity work (persons, frameworks, organizations, terms)
 - **Forensic & Provenance Packets** — AI failure documentation, summarizer corrections, attribution scars
-- **Methodology** — specifications, protocols, the MPAI architecture itself
+- **Methodology & Specifications** — formal specifications, verification schemas, the protocols that govern the MPAI discipline itself
+
+## Inclusion rule
+
+Strict-label MPAIs (title contains "Metadata Packet for AI Indexing" or carries `EA-MPAI` / `EA-MP` / `MPAI` prefix) plus the May 2026 bridge-packet series (internal IDs `EA-MPAI-*`, structurally compliant with MPAI grammar even where the public title varies). Adjacent or conceptually-related work that is not itself an MPAI lives elsewhere in the [Crimson Hexagonal Archive](https://zenodo.org/communities/crimsonhexagonal/).
 
 ## How to submit
 

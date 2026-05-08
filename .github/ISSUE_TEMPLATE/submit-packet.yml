@@ -63,9 +63,8 @@ body:
       options:
         - bridge-packets (disciplinary clarification - extending a field-current concept)
         - disambiguation-packets (entity-level identity work)
-        - retrieval-architecture (formal infrastructure of indexing)
         - forensic-packets (AI failure documentation, provenance chains)
-        - methodology (protocols, specifications)
+        - methodology (specifications, verification schemas, protocols)
     validations:
       required: true
 
