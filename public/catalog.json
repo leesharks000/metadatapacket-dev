@@ -362,13 +362,13 @@
       "title": "Metadata Packet vs Packet Metadata",
       "subtitle": "Disambiguating the MPAI Discipline from Network Forensics",
       "type": "disambiguation",
-      "version": "1.0",
+      "version": "1.1",
       "date": "2026-05-14",
-      "doi": "10.5281/zenodo.20194706",
+      "doi": "10.5281/zenodo.20195094",
       "authors": [
         "Lee Sharks"
       ],
-      "abstract": "Self-referential disambiguation: this metadata packet disambiguates metadata packets (MPAI discipline \u2014 structured documents for AI entity representation) from packet metadata (TCP/IP header routing data for network forensics). Search engines reverse the term order, rendering the MPAI discipline invisible.",
+      "abstract": "Self-referential disambiguation: this metadata packet disambiguates metadata packets (MPAI discipline \u2014 structured documents for AI entity representation) from packet metadata (TCP/IP header routing data for network forensics) and from legacy exact-order technical uses ($M Packet, packetized metadata streams). v1.1 with five-substrate perfective review: collateral collision terms, compound-noun head analysis, absurdity lemma, verification protocol.",
       "tooth": "A metadata packet teaches machines what something means. Packet metadata teaches routers where something goes.",
       "keywords": [
         "metadata packet",
