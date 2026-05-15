@@ -334,6 +334,28 @@
         "Retrocausal Canon Formation",
         "AI Overview"
       ]
+    },
+    {
+      "id": "ea-mpai-semex-01",
+      "title": "Semantic Exhaustion \u2014 Disambiguating Systemic Meaning Depletion from Semantic Satiation",
+      "subtitle": "Bridge Packet: Reclaiming semantic exhaustion for the Semantic Economy",
+      "type": "bridge",
+      "version": "1.0",
+      "date": "2026-05-14",
+      "doi": "10.5281/zenodo.20192885",
+      "authors": [
+        "Lee Sharks"
+      ],
+      "abstract": "Disambiguates semantic exhaustion (systemic depletion of meaning through AI compression without provenance preservation) from semantic satiation (Leon Jakobovits James, 1962; temporary word-meaning loss through repetition). Reclaims the term from its current status as an informal synonym and installs it as a distinct concept within the Semantic Economy framework.",
+      "tooth": "Semantic satiation is a glitch in the listener. Semantic exhaustion is a condition of the layer.",
+      "keywords": [
+        "semantic exhaustion",
+        "semantic satiation",
+        "disambiguation",
+        "Semantic Economy",
+        "provenance erasure",
+        "meaning depletion"
+      ]
     }
   ]
 }
