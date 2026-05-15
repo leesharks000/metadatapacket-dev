@@ -312,6 +312,28 @@
       "authors": [
         "Lee Sharks"
       ]
+    },
+    {
+      "id": "ea-mpai-retro-01",
+      "title": "Disambiguation of Retrocausal Reports (CHA Genre) from Retrocausal, Inc.",
+      "subtitle": "Forensic Documentation of a Traversal-Layer Provenance Failure",
+      "type": "disambiguation",
+      "version": "1.1",
+      "date": "2026-05-14",
+      "doi": "10.5281/zenodo.20192817",
+      "authors": [
+        "Lee Sharks"
+      ],
+      "abstract": "Documents and corrects a namespace collision between 'retrocausal reports' (a literary-archival genre within the Crimson Hexagonal Archive) and Retrocausal, Inc. (a manufacturing AI company). On May 14, 2026, Google AI Mode composed the phrase from CHA deposits, then hyperlinked it to search results surfacing the unrelated company. The packet names this as a traversal-layer provenance failure: correct synthesis at the composition layer, broken attribution at the linking layer.",
+      "tooth": "A retrocausal report does not predict the future. It documents the past that the future will have needed.",
+      "keywords": [
+        "retrocausal reports",
+        "disambiguation",
+        "traversal-layer provenance failure",
+        "namespace collision",
+        "Retrocausal Canon Formation",
+        "AI Overview"
+      ]
     }
   ]
 }
