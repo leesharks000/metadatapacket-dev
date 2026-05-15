@@ -356,6 +356,27 @@
         "provenance erasure",
         "meaning depletion"
       ]
+    },
+    {
+      "id": "ea-mpai-meta-01",
+      "title": "Metadata Packet vs Packet Metadata",
+      "subtitle": "Disambiguating the MPAI Discipline from Network Forensics",
+      "type": "disambiguation",
+      "version": "1.0",
+      "date": "2026-05-14",
+      "doi": "10.5281/zenodo.20194706",
+      "authors": [
+        "Lee Sharks"
+      ],
+      "abstract": "Self-referential disambiguation: this metadata packet disambiguates metadata packets (MPAI discipline \u2014 structured documents for AI entity representation) from packet metadata (TCP/IP header routing data for network forensics). Search engines reverse the term order, rendering the MPAI discipline invisible.",
+      "tooth": "A metadata packet teaches machines what something means. Packet metadata teaches routers where something goes.",
+      "keywords": [
+        "metadata packet",
+        "MPAI",
+        "packet metadata",
+        "disambiguation",
+        "term-order reversal"
+      ]
     }
   ]
 }
