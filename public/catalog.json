@@ -393,7 +393,7 @@
     },
     {
       "id": "ea-mpai-iod-01",
-      "category": "methodology-specifications",
+      "category": "methodology",
       "title": "Induced-Obsolescence Dependence",
       "primary_entity": "Induced-Obsolescence Dependence",
       "secondary_entity": "AI overreliance / automation bias",
@@ -406,7 +406,7 @@
     },
     {
       "id": "ea-mpai-dsl-01",
-      "category": "methodology-specifications",
+      "category": "methodology",
       "title": "Directionality of Semantic Labor",
       "primary_entity": "Directionality of Semantic Labor",
       "secondary_entity": "Provenance Erasure Rate / Erasure Skew",
@@ -419,7 +419,7 @@
     },
     {
       "id": "ea-mpai-ipf-01",
-      "category": "forensic-provenance",
+      "category": "forensic-packets",
       "title": "Institutional-Prior Foreclosure",
       "primary_entity": "Institutional-Prior Foreclosure",
       "secondary_entity": "Recognition bias / lagged proxy",
