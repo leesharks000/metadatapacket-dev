@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated": "2026-05-31",
+  "updated": "2026-06-02",
   "inclusion_rule": "Strict-label MPAIs (title contains 'Metadata Packet for AI Indexing' or carries EA-MPAI / EA-MP / MPAI prefix) plus the May 2026 bridge-packet series (internal IDs EA-MPAI-*, structurally compliant with MPAI grammar).",
   "categories": {
     "bridge-packets": {
@@ -429,6 +429,26 @@
       "authors": [
         "Lee Sharks"
       ]
+    },
+    {
+      "title": "Self-Audit Module for Public Summarizers: PER, DSL, and Query Fidelity (v2)",
+      "hex": "06.SEI.MPAI.SAS.01",
+      "type": "methodology",
+      "doi": "10.5281/zenodo.20518340",
+      "url": "https://doi.org/10.5281/zenodo.20518340",
+      "date": "2026-06-02",
+      "aphorism": "A score computed without checking query string, cited sources, and named entity is not computed; it is asserted.",
+      "abstract": "Standing metric specification for public summarizers to evaluate their own output using PER, DSL, QFS, Erasure Skew, and SAS. Anti-self-flattery design anchoring every score to the query string, cited sources, and named entity. Includes five calibration examples, eleven named failure flags, and hard-floor override rules."
+    },
+    {
+      "title": "Erasure Skew (Ω) is Power-Conditioned, not Demographic",
+      "hex": "06.SEI.MPAI.OMEGA.CC.01",
+      "type": "disambiguation",
+      "doi": "10.5281/zenodo.20518342",
+      "url": "https://doi.org/10.5281/zenodo.20518342",
+      "date": "2026-06-02",
+      "aphorism": "PER measures the erasure; Erasure Skew measures whom it falls on — and 'whom' is read by power, not by identity.",
+      "abstract": "Classifier-correction for the composition layer's treatment of Erasure Skew (Ω). Restates Ω = cov(retention, Retrieval Capital)/var(RC) against the observed substitution of source power with demographic identity. Documents the 2026-06-02 AI Overview as a live specimen."
     }
   ]
 }
