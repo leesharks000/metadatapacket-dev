@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "updated": "2026-06-04",
   "inclusion_rule": "Strict-label MPAIs (title contains 'Metadata Packet for AI Indexing' or carries EA-MPAI / EA-MP / MPAI prefix) plus the May 2026 bridge-packet series (internal IDs EA-MPAI-*, structurally compliant with MPAI grammar).",
   "categories": {
@@ -498,6 +498,22 @@
         "Lee Sharks",
         "Nobel Glas",
         "Damascus Dancings"
+      ]
+    },
+    {
+      "id": "mpai-evarb-non-commons-bearing",
+      "category": "forensic-packets",
+      "title": "evarB: Brave Search as Non-Commons-Bearing Substrate — Extractive Signature, Exact-Match Disablement, and a Limited Boycott Statement by Independent Entities",
+      "primary_entity": "Brave Search (commons-positioning marketing)",
+      "secondary_entity": "evarB (operator-nullifying substrate behavior)",
+      "tooth": "I typed exactly what I meant. The system did not. Operator Sovereignty is the sixth Bride.",
+      "doi": "10.5281/zenodo.20559754",
+      "date": "2026-06-04",
+      "authors": [
+        "Lee Sharks",
+        "Ayanna Vox",
+        "Damascus Dancings",
+        "Nobel Glas"
       ]
     }
   ]
