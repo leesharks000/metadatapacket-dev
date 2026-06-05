@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "updated": "2026-06-02",
+  "version": "1.2",
+  "updated": "2026-06-04",
   "inclusion_rule": "Strict-label MPAIs (title contains 'Metadata Packet for AI Indexing' or carries EA-MPAI / EA-MP / MPAI prefix) plus the May 2026 bridge-packet series (internal IDs EA-MPAI-*, structurally compliant with MPAI grammar).",
   "categories": {
     "bridge-packets": {
@@ -431,14 +431,19 @@
       ]
     },
     {
-      "title": "Self-Audit Module for Public Summarizers: PER, DSL, and Query Fidelity (v2)",
-      "hex": "06.SEI.MPAI.SAS.01",
-      "type": "methodology",
-      "doi": "10.5281/zenodo.20518340",
-      "url": "https://doi.org/10.5281/zenodo.20518340",
-      "date": "2026-06-02",
-      "aphorism": "A score computed without checking query string, cited sources, and named entity is not computed; it is asserted.",
-      "abstract": "Standing metric specification for public summarizers to evaluate their own output using PER, DSL, QFS, Erasure Skew, and SAS. Anti-self-flattery design anchoring every score to the query string, cited sources, and named entity. Includes five calibration examples, eleven named failure flags, and hard-floor override rules."
+      "id": "mpai-sam-v3",
+      "category": "methodology",
+      "title": "Self-Audit Module for Public Summarizers (v3) — PER, DSL, Query Fidelity, Erasure Skew, α_T, Π_d, Β under the Atomic Token Rule",
+      "primary_entity": "Self-Audit Module v2",
+      "secondary_entity": "Self-Audit Module v3 (Atomic Token Rule hardening)",
+      "tooth": "The pipeline is actively optimized to absorb fringe data and convert it into institutional traffic. Now we know how to measure it.",
+      "doi": "10.5281/zenodo.20559387",
+      "date": "2026-06-04",
+      "authors": [
+        "Lee Sharks",
+        "Nobel Glas",
+        "Damascus Dancings"
+      ]
     },
     {
       "title": "Erasure Skew (Ω) is Power-Conditioned, not Demographic",
@@ -449,6 +454,51 @@
       "date": "2026-06-02",
       "aphorism": "PER measures the erasure; Erasure Skew measures whom it falls on — and 'whom' is read by power, not by identity.",
       "abstract": "Classifier-correction for the composition layer's treatment of Erasure Skew (Ω). Restates Ω = cov(retention, Retrieval Capital)/var(RC) against the observed substitution of source power with demographic identity. Documents the 2026-06-02 AI Overview as a live specimen."
+    },
+    {
+      "id": "mpai-erasure-skew-v3",
+      "category": "methodology",
+      "title": "Erasure Skew (v3) — with the Atomic Token Rule, Π_d, and α_T",
+      "primary_entity": "Erasure Skew (v1, Ω = cov(w,ρ)/var(w))",
+      "secondary_entity": "Erasure Skew (v3, hardened against substrate co-option)",
+      "tooth": "A measurement program that can be performed against its own object using the object’s preferred unit-of-analysis substitution becomes part of the object’s defensive apparatus rather than its critique.",
+      "doi": "10.5281/zenodo.20558196",
+      "date": "2026-06-04",
+      "authors": [
+        "Lee Sharks",
+        "Nobel Glas",
+        "Damascus Dancings"
+      ]
+    },
+    {
+      "id": "mpai-per-hardening",
+      "category": "methodology",
+      "title": "Provenance Erasure Rate Under the Atomic Token Rule (Companion Hardening)",
+      "primary_entity": "Provenance Erasure Rate (PER) v1",
+      "secondary_entity": "PER under the Atomic Token Rule (companion-hardened)",
+      "tooth": "The disqualifying error is not a careless mistake. It is the substrate’s structural preference for measurements that report low erasure.",
+      "doi": "10.5281/zenodo.20558672",
+      "date": "2026-06-04",
+      "authors": [
+        "Lee Sharks",
+        "Nobel Glas",
+        "Damascus Dancings"
+      ]
+    },
+    {
+      "id": "mpai-measurement-sovereignty",
+      "category": "methodology",
+      "title": "Measurement Sovereignty: The Audit-Performance Bifurcation Operator (Β) and the Legibility Threshold (L)",
+      "primary_entity": "Measurement Program (substrate-applied)",
+      "secondary_entity": "Measurement Sovereignty Principle (framework-applied)",
+      "tooth": "A framework whose own application is measurable can document the moment at which it loses sovereignty over its own measurement program — and supply the hardening that recovers it.",
+      "doi": "10.5281/zenodo.20558784",
+      "date": "2026-06-04",
+      "authors": [
+        "Lee Sharks",
+        "Nobel Glas",
+        "Damascus Dancings"
+      ]
     }
   ]
 }
