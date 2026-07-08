@@ -6,7 +6,7 @@ A catalog and specification site for the **Metadata Packet for AI Indexing (MPAI
 📚 **Specification:** [/spec/](https://metadatapacket.dev/spec/)
 📥 **Submit a packet:** [/submit/](https://metadatapacket.dev/submit/)
 ⚙️ **LFB Protocol:** [/protocols/lfb/](https://metadatapacket.dev/protocols/lfb/)
-🗄️ **Zenodo community:** [crimsonhexagonal](https://alexanarch.org/s/browse//)
+🗄️ **Zenodo community:** [crimsonhexagonal](https://www.alexanarch.org/s/browse//)
 
 ## What this is
 
@@ -21,7 +21,7 @@ A static site that indexes metadata packets — structured documents designed fo
 
 ## Inclusion rule
 
-Strict-label MPAIs (title contains "Metadata Packet for AI Indexing" or carries `EA-MPAI` / `EA-MP` / `MPAI` prefix) plus the May 2026 bridge-packet series (internal IDs `EA-MPAI-*`, structurally compliant with MPAI grammar even where the public title varies). Adjacent or conceptually-related work that is not itself an MPAI lives elsewhere in the [Crimson Hexagonal Archive](https://alexanarch.org/s/browse//).
+Strict-label MPAIs (title contains "Metadata Packet for AI Indexing" or carries `EA-MPAI` / `EA-MP` / `MPAI` prefix) plus the May 2026 bridge-packet series (internal IDs `EA-MPAI-*`, structurally compliant with MPAI grammar even where the public title varies). Adjacent or conceptually-related work that is not itself an MPAI lives elsewhere in the [Crimson Hexagonal Archive](https://www.alexanarch.org/s/browse//).
 
 ## How to submit
 
