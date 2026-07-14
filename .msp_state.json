@@ -1,6 +1,6 @@
 {
   "editorial_at": "2026-07-14T00:17:49.536375+00:00",
-  "phase": "editorial",
+  "phase": "finalized",
   "recurse": false,
   "skip": [],
   "files": [
@@ -33,5 +33,7 @@
       "lemmas": 16,
       "helix": 0
     }
-  }
+  },
+  "repository_commit": "b14bc94db59023eae7c04d70e5cd0f7fa04ff81b",
+  "finalized_at": "2026-07-14T00:18:18.697912+00:00"
 }
