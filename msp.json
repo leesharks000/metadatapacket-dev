@@ -1,0 +1,22 @@
+{
+  "surface_id": "metadatapacket.dev",
+  "canonical_url": "https://metadatapacket.dev/",
+  "axn": "AXN:03E7.ARCHIVAL.💡◀️🔜☀️🕘🟢",
+  "deposit_number": 987,
+  "title": "metadatapacket.dev — The MPAI Catalog",
+  "object_state": "canonical",
+  "tier": 1,
+  "register": "archival",
+  "skin": {},
+  "doors": [
+    {"label": "Read the deposit", "href": "https://www.alexanarch.org/s/records/987/"},
+    {"label": "Submit an MPAI", "href": "/submit/"},
+    {"label": "The spec", "href": "/spec/"}
+  ],
+  "index_files": [
+    "public/index.html",
+    "public/spec/index.html",
+    "public/submit/index.html"
+  ],
+  "notes": "Anchor is #987 (ARCHIVAL family, 2026-07-03), titled 'metadatapacket.com: Forward Library Planning Document — Assembly Synthesis'. Domain mismatch: deposit named .com; deployment at .dev. Site content aligns with deposit despite the domain difference — this manifest treats the .dev domain as the current live deployment of the .com-named work. If a distinct .dev deposit is minted later, this anchor moves. index_files enumerated over public/ (Vercel outputDirectory=public). Recurse mode also supported via `msp_apply.py editorial --recurse` from repo root — the applicator walks public/**/*.html."
+}

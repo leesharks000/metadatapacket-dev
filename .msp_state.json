@@ -1,0 +1,37 @@
+{
+  "editorial_at": "2026-07-14T00:17:49.536375+00:00",
+  "phase": "editorial",
+  "recurse": false,
+  "skip": [],
+  "files": [
+    "public/index.html",
+    "public/spec/index.html",
+    "public/submit/index.html"
+  ],
+  "editorial_changes": {
+    "public/index.html": {
+      "tokens": true,
+      "idstrip": true,
+      "link_typing": 0,
+      "apparatus": true,
+      "lemmas": 22,
+      "helix": 0
+    },
+    "public/spec/index.html": {
+      "tokens": true,
+      "idstrip": true,
+      "link_typing": 0,
+      "apparatus": true,
+      "lemmas": 39,
+      "helix": 0
+    },
+    "public/submit/index.html": {
+      "tokens": true,
+      "idstrip": true,
+      "link_typing": 0,
+      "apparatus": true,
+      "lemmas": 16,
+      "helix": 0
+    }
+  }
+}
