@@ -10,7 +10,7 @@ A catalog and specification site for the **Metadata Packet for AI Indexing (MPAI
 
 ## What this is
 
-A static site that indexes metadata packets — structured documents designed for entity-level retrieval architecture, disciplinary clarification, and AI knowledge graph alignment. The site does not host packet source files; it indexes DOI-anchored deposits hosted on Zenodo (or other DOI-issuing repositories).
+A static site that indexes metadata packets — structured documents designed for entity-level retrieval architecture, disciplinary clarification, and AI knowledge graph alignment. The site does not host packet source files; it indexes AXN-anchored deposits in the Alexanarch registry (content-derived identifiers; historical DOIs recorded where they exist).
 
 ## Categories
 
