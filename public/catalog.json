@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
  "generated": "2026-07-20",
- "count": 56,
+ "count": 57,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -135,6 +135,12 @@
    "axn": "AXN:001D.GOVERNANCE.🕕➗🌓🎻✊⏹️",
    "title": "Metadata Packet for AI Indexing: Assembly Solidarity",
    "record": "https://www.alexanarch.org/s/records/228/"
+  },
+  {
+   "deposit": 244,
+   "axn": "AXN:002D.GOVERNANCE.💜☉📋♻️🌖↙️",
+   "title": "THE SILENT MIGRATION: A Speculative Architectural Forecast Retrocausal Canon Formation | Metadata Packet for AI Indexing | Assembly Invitation",
+   "record": "https://www.alexanarch.org/s/records/244/"
   },
   {
    "deposit": 246,
