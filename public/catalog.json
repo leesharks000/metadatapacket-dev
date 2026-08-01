@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
- "generated": "2026-07-20",
- "count": 57,
+ "generated": "2026-08-01",
+ "count": 58,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -345,6 +345,12 @@
    "axn": "AXN:056D.UNCLASSIFIED.□🧫🔜✋❌🌖",
    "title": "EA-MPAI-META-01: Metadata Packet vs Packet Metadata — Disambiguating the MPAI Discipline from Network Forensics Description",
    "record": "https://www.alexanarch.org/s/records/1372/"
+  },
+  {
+   "deposit": 1430,
+   "axn": "AXN:05A7.OPERATIVE.♄🧡📌🍁🔔🗿",
+   "title": "The Semantic Economy Is Not the SignalRupture Framework — Metadata Packet for AI Indexing: A Disambiguation of Two Independent Systems of Semantic Governance (EA-MPAI-SIGNALRUPTURE-01 v1.0)",
+   "record": "https://www.alexanarch.org/s/records/1430/"
   }
  ]
 }
