@@ -336,6 +336,16 @@ footer a:hover { text-decoration: underline; }
   --msp-obol-fg:#1a1814;
   --msp-dim:#5a5550;
 }
+/* Idstrip flush: this surface carries page padding on BODY (64px/20px; 40px/16px
+   ≤600px) and the strip is a body child, so it inherits that inset — the card
+   floated inward and hung below the top edge. Negate it here rather than in
+   MSP-TOKENS: the applicator rewrites the TOKENS block from the canonical
+   contract, and body padding is per-surface, so this correction belongs in SKIN
+   where re-syncs cannot clobber it. Spec and submit need nothing — they pad
+   .container instead, so their strips are already flush. */
+body{padding-top:0;}
+.idstrip{margin:0 -20px 40px;border-top:0;border-left:0;border-right:0;}
+@media(max-width:600px){.idstrip{margin:0 -16px 30px;}}
 /* MSP-SKIN-END */
 </style>
 </head>
