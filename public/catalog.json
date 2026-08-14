@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
- "generated": "2026-08-08",
- "count": 61,
+ "generated": "2026-08-14T20:12:01Z",
+ "count": 62,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -370,6 +370,12 @@
    "axn": "AXN:05C4.MPAI.✊🔽💙🌊🍀🌳",
    "title": "Semantic Samizdat: Availability Without Compulsory Exposure — Metadata Packet for AI Indexing (EA-MPAI-SEMANTIC-SAMIZDAT-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/1440/"
+  },
+  {
+   "deposit": 1459,
+   "axn": "AXN:05E5.MPAI.🕖🕌🌾🎇🌒🔴",
+   "title": "AI Overview Capture Registry ≠ AI Overview Tracking: Priority, Disambiguation, Provenance Erasure, and Compositional Liquidation into SEO Monitoring, SERP Extraction, and Generic AI-Registry Semantics (EA-MMRS-AIOCR v1.1)",
+   "record": "https://www.alexanarch.org/s/records/1459/"
   }
  ]
 }
