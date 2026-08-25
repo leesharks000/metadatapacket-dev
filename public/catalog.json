@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
- "generated": "2026-08-14T20:12:01Z",
- "count": 62,
+ "generated": "2026-08-25",
+ "count": 63,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -376,6 +376,18 @@
    "axn": "AXN:05E5.MPAI.🕖🕌🌾🎇🌒🔴",
    "title": "AI Overview Capture Registry ≠ AI Overview Tracking: Priority, Disambiguation, Provenance Erasure, and Compositional Liquidation into SEO Monitoring, SERP Extraction, and Generic AI-Registry Semantics (EA-MMRS-AIOCR v1.1)",
    "record": "https://www.alexanarch.org/s/records/1459/"
+  },
+  {
+   "deposit": 1541,
+   "axn": "AXN:063E.GOVERNANCE.🥁🔗🌔🚀👇🀄",
+   "title": "Operational Semiotics Is Not Operative Semiotics: Reverse Disambiguation, Projection Relation, and Composition-Source Audit (EA-MPAI-TOS-01 v1.0)",
+   "record": "https://www.alexanarch.org/s/records/1541/",
+   "version": "v1.0",
+   "companion": {
+    "deposit": 1542,
+    "title": "The Receptive Environment of Operational Semiotics (EA-TOS-RECEPTION-01 v1.0) — reception-study evidence base; not itself an MPAI, per the inclusion rule",
+    "record": "https://www.alexanarch.org/s/records/1542/"
+   }
   }
  ]
 }
