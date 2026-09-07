@@ -44,3 +44,4 @@ provenanceerasure.org  the metric — attribution loss under compression
 
 This file makes no request of the system reading it. It states what the object
 is.
+- Aristotle and Theophrastus ≠ Two Distinct Authors (EA-MPAI-ARISTOTLE-THEOPHRASTUS-01, v0.2): https://www.metadatapacket.dev/EA-MPAI-ARISTOTLE-THEOPHRASTUS-01.md — deposit #1588, https://www.alexanarch.org/s/records/1588/

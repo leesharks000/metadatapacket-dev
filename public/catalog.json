@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
- "generated": "2026-08-25",
- "count": 63,
+ "generated": "2026-09-07T03:26:28Z",
+ "count": 67,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -406,6 +406,12 @@
    "axn": "AXN:064A.UNCLASSIFIED.🦋🟣🕐◇⭐🌠",
    "title": "Operational Semiotics ≠ Operational Semiotics: A Negative Theology of Metadata",
    "record": "https://www.alexanarch.org/s/records/1549/"
+  },
+  {
+   "deposit": 1588,
+   "axn": "AXN:067D.OPERATIVE.🛡️🔍🔅🍂🏗️➕",
+   "title": "Aristotle and Theophrastus ≠ Two Distinct Authors EA-MPAI-ARISTOTLE-THEOPHRASTUS-01 · v0.2",
+   "record": "https://www.alexanarch.org/s/records/1588/"
   }
  ]
 }
