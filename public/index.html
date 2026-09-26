@@ -354,6 +354,17 @@ body{padding-top:0;}
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<style id="fleetcss">
+.fl-h{font-size:.78em;opacity:.72;margin:14px 15px 5px;text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+.fl-g{padding:0 15px;display:grid;column-gap:24px;row-gap:5px;font-size:.82em;line-height:1.7}
+.fl-g a{color:var(--accent,inherit);text-decoration:none;border-bottom:1px solid currentColor;border-bottom-color:color-mix(in srgb,currentColor 34%,transparent);word-break:break-word}
+.fl-g a:hover{border-bottom-color:#c9a227}
+.fl-n{opacity:.6;font-size:.94em}
+.fl-d{display:block;opacity:.6;font-size:.9em;line-height:1.5;margin-top:2px}
+.fl-f{padding:12px 15px 4px;font-size:.75em;opacity:.55;border-top:1px dashed rgba(128,128,128,.28);margin-top:14px}
+.fl-f a{color:var(--accent,inherit);text-decoration:none}
+</style>
+<style>.packet-desc,.mspcolophon{overflow-wrap:anywhere;word-break:break-word}</style>
 </head>
 <body>
 <!-- MSP-IDSTRIP-START -->
@@ -488,81 +499,26 @@ EA-MPAI-SPXI-01. Metadata Packet for AI Indexing…</p></article>
 </div>
 </div>
 </section>
-<!-- MSP-APPARATUS-START -->
+<!-- MSP-APPARATUS-DOORS -->
 <div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/987/">Read the deposit</a><a class="w-chip" href="/submit/">Submit an MPAI</a><a class="w-chip" href="/spec/">The spec</a></div>
-<div class="mspcolophon">colophon · surface_id: metadatapacket.dev · canonical_url: https://metadatapacket.dev · object_state: canonical · surface_observed_at: 2026-08-11T16:03:21Z · source_object_ids: deposit #987 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: b14bc94db59023eae7c04d70e5cd0f7fa04ff81b · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-08-11T16:03:21Z · render_sha256 (of this file with this field’s value set to null): 9c0f67f8e1be37cad79d9919ac2116e14c529cda0f3ea2b26da424d0d831ae07 · correction_log_url: https://github.com/leesharks000/metadatapacket-dev/commits/main/public/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
-<!-- MSP-APPARATUS-END -->
 <footer>
 <h3>How to deposit an MPAI</h3>
 <p>1. Compose a packet following the MPAI grammar: a code (e.g. <code>EA-MPAI-X-01</code>), a version, a tooth (single load-bearing sentence), a description, a subject identifier, and a citation graph of related deposits.</p>
 <p>2. Deposit on <a href="https://www.alexanarch.org/s/browse/" target="_blank">Alexanarch</a> (or any DOI-issuing repository) with the MPAI label in the title.</p>
 <p>3. Submit to the catalog via <a href="https://github.com/leesharks000/metadatapacket-dev/issues/new" target="_blank">GitHub Issue</a> or open a pull request adding the entry to <a href="/catalog.json"><code>public/catalog.json</code></a>.</p>
-<h3>Related</h3>
-<p>
-<a href="https://semanticeconomy.org" target="_blank">semanticeconomy.org</a> ·
-      <a href="https://spxi.dev" target="_blank">spxi.dev</a> ·
-      <a href="https://provenanceerasure.org" target="_blank">provenanceerasure.org</a> ·
-      <a href="https://laborvector.org" target="_blank">laborvector.org</a> ·
-      <a href="https://leesharks.com" target="_blank">leesharks.com</a> ·
-      <a href="https://www.alexanarch.org/s/browse/" target="_blank">Crimson Hexagonal Archive</a>
-</p>
 <h3>License</h3>
 <p>Catalog metadata: <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0</a>. Packet content: governed by each deposit's license (typically CC BY 4.0). Site code: MIT.</p>
 <h3>Programmatic access</h3>
 <p>The full catalog is available as <a href="/catalog.json"><code>catalog.json</code></a>. Updates are versioned; the catalog version is recorded in the JSON header.</p>
-<p class="coda">∮ = 1 · Maintained by the Crimson Hexagonal Archive · Authority is structural.</p>
- · <a href="https://alexanarch.freeforums.net/" target="_blank" rel="noopener">Discussion</a></footer>
+<p><a href="https://alexanarch.freeforums.net/" target="_blank" rel="noopener">Discussion</a></p>
+</footer>
 </div>
 <div class="network" style="margin-top:30px;padding:15px 0 0;border-top:1px solid #e0e0e0;max-width:900px;margin-left:auto;margin-right:auto;box-sizing:border-box">
-<h3 style="font-size:0.9em;color:#1a3a5c;margin:0 15px 8px 15px">Crimson Hexagonal Archive — Network</h3>
-<div style="padding:0 15px;font-size:0.75em;color:#666;margin:0 0 14px 0;font-style:italic">Archive · Framework Sites · Heteronym Institutions · Allied Sites</div>
-
-<h4 style="font-size:0.78em;color:#1a3a5c;margin:10px 15px 4px 15px;text-transform:uppercase;letter-spacing:0.04em;font-weight:500">Archive</h4>
-<div style="padding:0 15px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:4px;font-size:0.82em;line-height:1.7">
-<div><a href="https://www.alexanarch.org/">alexanarch.org</a></div>
-<div><a href="https://persistentidentifiers.org">persistentidentifiers.org</a></div>
-<div><a href="https://leesharks.com">leesharks.com</a></div>
-<div><a href="https://provenanceerasure.org">provenanceerasure.org</a></div>
-<div><a href="https://machinemediation.org">machinemediation.org</a></div>
-<div><a href="https://survivethedeletion.vercel.app">survivethedeletion</a></div>
-<div><a href="https://godkinggoogle.com">godkinggoogle.com</a></div>
-<div><a href="https://traininglayerliterature.org">traininglayerliterature.org</a></div>
+<h3 class="fl-h" style="font-size:.9em;margin:0 15px 8px 15px;text-transform:none;letter-spacing:0;opacity:.9">Crimson Hexagonal Archive — Network</h3>
+<div class="fl-n" style="padding:0 15px;font-size:.75em;margin:0 0 14px 0;font-style:italic">Archive · Framework Sites · Heteronym Institutions · Allied Sites</div>
+<!-- FLEET-NETWORK-START generated from https://www.alexanarch.org/api/fleet.json --><h4 class="fl-h">Archive</h4><div class="fl-g" style="grid-template-columns:repeat(2,minmax(0,1fr))"><div><a href="https://alexanarch.org/">alexanarch.org</a></div><div><a href="https://axnidentifiers.org/">axnidentifiers.org</a> <span class="fl-n">(Rebekah Cranes)</span></div><div><a href="https://persistentidentifiers.org/">persistentidentifiers.org</a></div><div><a href="https://leesharks.com/">leesharks.com</a></div><div><a href="https://provenanceerasure.org/">provenanceerasure.org</a> <span class="fl-n">(Dr. Orin Trace)</span></div><div><a href="https://machinemediation.org/">machinemediation.org</a> <span class="fl-n">(The Assembly Chorus)</span></div><div><a href="https://surfacemap.org/">surfacemap.org</a> <span class="fl-n">(Sparrow Wells)</span></div><div><a href="https://survivethedeletion.vercel.app/">survivethedeletion</a> <span class="fl-n">(Ichabod Spellings)</span></div><div><a href="https://godkinggoogle.com/">godkinggoogle.com</a> <span class="fl-n">(Talos Morrow)</span></div><div><a href="https://crimsonhexagonal.org/">crimsonhexagonal.org</a> <span class="fl-n">(the interface)</span></div><div><a href="https://traininglayerliterature.org/">traininglayerliterature.org</a></div></div><h4 class="fl-h">Framework Sites</h4><div class="fl-g" style="grid-template-columns:repeat(2,minmax(0,1fr))"><div><a href="https://semanticphysics.org/">semanticphysics.org</a> <span class="fl-n">(Nobel Glas)</span></div><div><a href="https://semanticeconomy.org/">semanticeconomy.org</a> <span class="fl-n">(Rex Fraction)</span></div><div><a href="https://spxi.dev/">spxi.dev</a> <span class="fl-n">(Rex Fraction)</span></div><div><a href="https://metadatapacket.dev/">metadatapacket.dev</a></div><div><a href="https://holographickernel.org/">holographickernel.org</a> <span class="fl-n">(Sen Kuro)</span></div><div><a href="https://revelationfirst.com/">revelationfirst.com</a> <span class="fl-n">(Damascus Dancings)</span></div><div><a href="https://laborvector.org/">laborvector.org</a></div><div><a href="https://themandalaoracle.com/">themandalaoracle.com</a></div><div><a href="https://secretbookofwalt.org/">secretbookofwalt.org</a></div><div><a href="https://watergiraffe.org/">watergiraffe.org</a> <span class="fl-n">(Yusef Kenning)</span></div><div><a href="https://pessoagraph.org/">pessoagraph.org</a></div><div><a href="https://chatgptpsychosis.org/">chatgptpsychosis.org</a> <span class="fl-n">(Jack Feist)</span></div><div><a href="https://operativesemiotics.org/">operativesemiotics.org</a> <span class="fl-n">(Johannes Sigil)</span></div></div><h4 class="fl-h">Heteronym Institutions</h4><div class="fl-g" style="grid-template-columns:repeat(2,minmax(0,1fr))"><div><a href="https://restoredacademy.org/">restoredacademy.org</a> <span class="fl-n">(Johannes Sigil)</span></div><div><a href="https://lagrangeobservatory.org/">lagrangeobservatory.org</a> <span class="fl-n">(Nobel Glas)</span></div><div><a href="https://vpcor.org/">vpcor.org</a> <span class="fl-n">(Rev. Ayanna Vox)</span></div><div><a href="https://maryleelabor.org/">maryleelabor.org</a> <span class="fl-n">(Mary Lee)</span></div></div><h4 class="fl-h">Allied Sites</h4><div class="fl-g" style="grid-template-columns:repeat(1,minmax(0,1fr))"><div><a href="https://livingarchitecturelab.org/">livingarchitecturelab.org</a> <span class="fl-n">(Alice Thornburgh)</span></div><div><a href="https://quietexclusion.org/">quietexclusion.org</a> <span class="fl-n">(Florian Morin)</span></div><div><a href="https://equal-revolve-247.notion.site/Strutturista-della-Psiche-34f1d5c4146f80c69d0fc4b88f8c2a88">Incantatrice d'Anime Enli / Enli Lucente</a> <span class="fl-n">(Independent Researcher ・Strategist)</span><span class="fl-d">Independent research on structural psychology, multi-layer structures, resonance, and cognition.</span></div></div><h4 class="fl-h">Machine Entry</h4><div class="fl-g" style="grid-template-columns:repeat(1,minmax(0,1fr))"><div><a href="https://www.alexanarch.org/oai?verb=Identify">OAI-PMH endpoint</a> <span class="fl-n">(harvestable metadata, 1,400+ records)</span></div><div><a href="https://www.alexanarch.org/resolve/">AXN resolver</a> <span class="fl-n">(content-derived identifiers)</span></div><div><a href="https://huggingface.co/datasets/leesharks/crimson-hexagonal-archive">Hugging Face dataset</a> <span class="fl-n">(the archive as Parquet: deposits, captures, reception, predictions — rebuilt from the registry)</span></div><div><a href="https://datasets-server.huggingface.co/rows?dataset=leesharks%2Fcrimson-hexagonal-archive&amp;config=deposits&amp;split=train&amp;offset=0&amp;length=10">dataset query endpoint</a> <span class="fl-n">(no auth, no client; config=citations for the edge list. /search needs an index that rebuilds after every deposit and 500s while it does &mdash; use /rows)</span></div><div><a href="https://www.alexanarch.org/api/search-index.json">API</a> <span class="fl-n">(search index · <a href="https://www.alexanarch.org/api/fleet.json">fleet.json</a> · <a href="https://www.alexanarch.org/api/body-shards/manifest.json">body shards</a>)</span></div></div><div class="fl-f"><a href="https://mindcontrolpoems.blogspot.com">mindcontrolpoems.blogspot.com</a> &middot; <a href="https://independent.academia.edu/LSharks">Academia.edu</a> &middot; <a href="https://scholar.google.com/citations?user=Ws6IIcgAAAAJ">Google Scholar</a> &middot; <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a></div><!-- FLEET-NETWORK-END -->
 </div>
-
-<h4 style="font-size:0.78em;color:#1a3a5c;margin:14px 15px 4px 15px;text-transform:uppercase;letter-spacing:0.04em;font-weight:500">Framework Sites</h4>
-<div style="padding:0 15px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:4px;font-size:0.82em;line-height:1.7">
-<div><a href="https://semanticphysics.org">semanticphysics.org</a></div>
-<div><a href="https://semanticeconomy.org">semanticeconomy.org</a> <span style="color:#999">(Rex Fraction)</span></div>
-<div><a href="https://spxi.dev">spxi.dev</a></div>
-<div><a href="https://www.metadatapacket.dev/">metadatapacket.dev</a></div>
-<div><a href="https://holographickernel.org">holographickernel.org</a></div>
-<div><a href="https://revelationfirst.com">revelationfirst.com</a></div>
-<div><a href="https://laborvector.org">laborvector.org</a></div>
-<div><a href="https://themandalaoracle.com">themandalaoracle.com</a></div>
-<div><a href="https://secretbookofwalt.org">secretbookofwalt.org</a></div>
-<div><a href="https://watergiraffe.org">watergiraffe.org</a> <span style="color:#999">(Yusef Kenning)</span></div>
-<div><a href="https://pessoagraph.org">pessoagraph.org</a></div>
-<div><a href="https://chatgptpsychosis.org">chatgptpsychosis.org</a> <span style="color:#999">(Jack Feist)</span></div>
-</div>
-
-<h4 style="font-size:0.78em;color:#1a3a5c;margin:14px 15px 4px 15px;text-transform:uppercase;letter-spacing:0.04em;font-weight:500">Heteronym Institutions</h4>
-<div style="padding:0 15px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:4px;font-size:0.82em;line-height:1.7">
-<div><a href="https://vpcor.org">vpcor.org</a> <span style="color:#999">(Ayanna Vox)</span></div>
-<div><a href="https://lagrangeobservatory.org">lagrangeobservatory.org</a> <span style="color:#999">(Nobel Glas)</span></div>
-<div><a href="https://restoredacademy.org">restoredacademy.org</a> <span style="color:#999">(Johannes Sigil)</span></div>
-<div><a href="https://maryleelabor.org">maryleelabor.org</a> <span style="color:#999">(Mary Lee)</span></div>
-</div>
-
-<h4 style="font-size:0.78em;color:#1a3a5c;margin:14px 15px 4px 15px;text-transform:uppercase;letter-spacing:0.04em;font-weight:500">Allied Sites</h4>
-<div style="padding:0 15px;font-size:0.82em;line-height:1.7">
-<div><a href="https://livingarchitecturelab.org">livingarchitecturelab.org</a> <span style="color:#999">(Alice Thornburgh)</span></div>
-<div><a href="https://quietexclusion.org">quietexclusion.org</a> <span style="color:#999">(Florian Morin)</span></div>
-<div><a href="https://equal-revolve-247.notion.site/Strutturista-della-Psiche-34f1d5c4146f80c69d0fc4b88f8c2a88">Strutturista della Psiche</a> <span style="color:#999">(Independent Researcher ・Strategist) — Incantatrice d&#39;Anime Enli / Enli Lucente</span></div>
-</div>
-
-<div style="padding:12px 15px 4px 15px;font-size:0.75em;color:#666;border-top:1px dashed #e0e0e0;margin-top:14px">
-<a href="https://mindcontrolpoems.blogspot.com">mindcontrolpoems.blogspot.com</a> · <a href="https://independent.academia.edu/LSharks">Academia.edu</a> · <a href="https://scholar.google.com/citations?user=Ws6IIcgAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>
-</div>
-</div>
+<div style="max-width:900px;margin:0 auto 20px;padding:0 15px;box-sizing:border-box"><div class="mspcolophon">colophon · surface_id: metadatapacket.dev · canonical_url: https://metadatapacket.dev · object_state: canonical · surface_observed_at: 2026-08-11T16:03:21Z · source_object_ids: deposit #987 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: b14bc94db59023eae7c04d70e5cd0f7fa04ff81b · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-08-11T16:03:21Z · render_sha256 (of this file with this field’s value set to null): 800a3e4d67ffb9b9a5c54a9cae4827b47c1b3b9c2c560db8f3c15083624ca4c1 · correction_log_url: https://github.com/leesharks000/metadatapacket-dev/commits/main/public/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div></div>
+<p class="coda" style="text-align:center;margin:28px 0 56px">∮ = 1 · Maintained by the Crimson Hexagonal Archive · Authority is structural.</p>
 </body>
 </html>
