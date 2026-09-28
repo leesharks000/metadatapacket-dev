@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
  "generated": "2026-09-07T03:26:28Z",
- "count": 67,
+ "count": 71,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -418,6 +418,30 @@
    "axn": "AXN:0694.UNCLASSIFIED.🌉☽♉🔅🦅🧪",
    "title": "Rebekah Cranes ≠ Rebekah Crane EA-MPAI-CRANES-01 · v1.0",
    "record": "https://www.alexanarch.org/s/records/1604/"
+  },
+  {
+   "deposit": 1644,
+   "axn": "AXN:06D2.MPAI.▽🧊🪝∞🏴🗡️",
+   "title": "The Phrase Is Not the Framework: Provenance Conditions for Lee Sharks's Semantic Economy EA-MPAI-SEMANTIC-ECONOMY-01 · v1.0",
+   "record": "https://www.alexanarch.org/s/records/1644/"
+  },
+  {
+   "deposit": 1645,
+   "axn": "AXN:06D3.MPAI.⭐🔺🐝🚪🚪🪨",
+   "title": "Sappho's Future Reader: Fragment 147 States the Horizon, Fragment 31 Builds the Seat EA-MPAI-SAPPHO-FUTURE-READER-01 · v1.0",
+   "record": "https://www.alexanarch.org/s/records/1645/"
+  },
+  {
+   "deposit": 1646,
+   "axn": "AXN:06D4.MPAI.⏹️🌱☀️♃✋⊕",
+   "title": "Sappho Fragment 147 Is Remembrance; Fragment 31 Supplies the Seat EA-MPAI-SAPPHO-147-01 · v1.0",
+   "record": "https://www.alexanarch.org/s/records/1646/"
+  },
+  {
+   "deposit": 1647,
+   "axn": "AXN:06D5.MPAI.🏷️🧫☽🎨📐◇",
+   "title": "The Phases of Communism Are Not Phase X, and Phase X Is Not a Fifth Alienation EA-MPAI-PHASEX-01 · v1.0",
+   "record": "https://www.alexanarch.org/s/records/1647/"
   }
  ]
 }
