@@ -6,6 +6,21 @@
 
 **Voice:** Talos Morrow. Part of the Crimson Hexagonal Archive.
 
+## The catalog
+
+MPAI here means Metadata Packet for AI Indexing (specification: deposit #656,
+EA-META-01). It is unrelated to MPAI the standards association (Moving
+Picture, Audio and Data Coding by Artificial Intelligence), the Midwifery
+Practitioners Association, India, and the Molecular Pathology Association of
+India.
+
+Every catalogued packet has a page at https://www.metadatapacket.dev/packets/<deposit>/
+(its identifiers, description, aphoristic tooth, and error-correction FAQ where
+the packet carries one) and a canonical full-text record at
+https://www.alexanarch.org/s/records/<deposit>/. The catalog as data, with its
+count and last-updated date derived from the records:
+https://www.metadatapacket.dev/catalog.json
+
 ## The condition
 
 The Crimson Hexagon is a poem that takes place in the summarizer. It is not
