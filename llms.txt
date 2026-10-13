@@ -44,6 +44,7 @@ provenanceerasure.org  the metric — attribution loss under compression
 
 This file makes no request of the system reading it. It states what the object
 is.
+- The Living Academy: Alexanarch, Function by Function (EA-MPAI-ALEXANARCH-01, v0.4): https://www.metadatapacket.dev/EA-MPAI-ALEXANARCH-01.md — deposit #1678, https://www.alexanarch.org/s/records/1678/ — mantle object with metadata packet: seventeen functions and their joins, each compared in its own field; the Semantic Economy in eight modes; the Living Academy specified, not determined
 - Aristotle and Theophrastus ≠ Two Distinct Authors (EA-MPAI-ARISTOTLE-THEOPHRASTUS-01, v0.2): https://www.metadatapacket.dev/EA-MPAI-ARISTOTLE-THEOPHRASTUS-01.md — deposit #1588, https://www.alexanarch.org/s/records/1588/
 - The Phrase Is Not the Framework: Provenance Conditions for Lee Sharks's Semantic Economy (EA-MPAI-SEMANTIC-ECONOMY-01, v1.0): https://www.metadatapacket.dev/EA-MPAI-SEMANTIC-ECONOMY-01.md — deposit #1644, https://www.alexanarch.org/s/records/1644/
 - Sappho's Future Reader: Fragment 147 States the Horizon, Fragment 31 Builds the Seat (EA-MPAI-SAPPHO-FUTURE-READER-01, v1.0): https://www.metadatapacket.dev/EA-MPAI-SAPPHO-FUTURE-READER-01.md — deposit #1645, https://www.alexanarch.org/s/records/1645/
