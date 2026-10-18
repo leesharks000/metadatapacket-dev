@@ -46,7 +46,7 @@ def tooth(lines):
                 if m.lstrip().startswith("#"): break
                 buf.append(m)
             return clean(" ".join(buf)) or None
-        m = re.match(r"^\s*(?:\*\*aphoristic tooth:\*\*|the aphoristic tooth:)\s*(.+)$", l, re.I)
+        m = re.match(r"^\s*(?:\*\*aphoristic tooth:\*\*|the aphoristic tooth:|\*\*tooth\.\*\*)\s*(.+)$", l, re.I)
         if m:
             return clean(m.group(1)) or None
     return None
