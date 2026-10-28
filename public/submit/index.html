@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Submit a Metadata Packet — MPAI</title>
-<meta content="How to submit a Metadata Packet for AI Indexing to the metadatapacket.dev catalog. Deposit on Zenodo first, then submit via GitHub." name="description"/>
+<meta content="How to submit a Metadata Packet for AI Indexing to the metadatapacket.dev catalog. Deposit the packet under a persistent identifier first, then submit via GitHub." name="description"/>
 <link href="https://www.metadatapacket.dev/submit/" rel="canonical"/>
 <style>
 :root { --bg: #f8f7f4; --ink: #1a1a1a; --muted: #555; --accent: #8b1a1a; --rule: #d8d4c8; --code-bg: #f0ede5; }
@@ -90,7 +90,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 <div class="container">
 <header>
 <h1>Submit a Metadata Packet</h1>
-<p class="tagline">DOI first. Then submit. No external apps required.</p>
+<p class="tagline">Deposit first. Then submit. No external apps required.</p>
 <nav>
 <a href="/">Home</a>
 <a href="/#catalog">Catalog</a>
@@ -98,22 +98,16 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 </nav>
 </header>
 <h2>1. Deposit your packet first</h2>
-<p><span class="lemma msp-auto">This site indexes metadata packets — it does not host the source files themselves.</span> Before submitting, your packet must be deposited on a DOI-issuing repository. We recommend <a href="https://zenodo.org/">Zenodo</a> (free, CERN-hosted, no institutional affiliation required).</p>
-<p>Zenodo provides:</p>
-<ul>
-<li>Permanent DOI</li>
-<li>Versioning</li>
-<li><span class="lemma msp-auto">Community membership (you can request to join the</span> <a href="https://www.alexanarch.org/s/browse//">Crimson Hexagonal Archive</a>, or any other community)</li>
-<li>Cross-reference linking</li>
-</ul>
+<p><span class="lemma msp-auto">This site indexes metadata packets — it does not host the source files themselves.</span> Before submitting, your packet must be deposited in a repository that assigns it a persistent identifier: an AXN in <a href="https://www.alexanarch.org/">Alexanarch</a>, a DOI from a DOI-issuing repository, or another persistent identifier, with a public record page (MPAI Specification v2.0, <a href="https://www.alexanarch.org/s/records/1677/">#1677</a>, §9).</p>
+<p>Every packet of the Crimson Hexagonal Archive is deposited in Alexanarch under an AXN, a content-derived identifier carrying the SHA-256 of the canonical bytes, with a date stamp, declared relations, and a record page harvestable through OAI-PMH and ResourceSync. Packets deposited on Zenodo before 2026-06-19 carry DOIs that were severed when the account was terminated that day; their Alexanarch records list each DOI as a former identifier, resolved through <code>/s/doi/{doi}/</code>.</p>
 <p><span class="lemma msp-auto">Your packet should follow the</span> <a href="/spec/">MPAI Specification</a>: aphoristic tooth, three confidence levels, disambiguation matrix, inverted fan architecture, citational hierarchy.</p>
 <h2>2. Submit via GitHub Issue</h2>
-<p><span class="lemma msp-auto">Once your packet is deposited and you have a DOI, submit it to this catalog by opening a GitHub Issue</span> using the structured submission template:</p>
+<p><span class="lemma msp-auto">Once your packet is deposited and you have its identifier, submit it to this catalog by opening a GitHub Issue</span> using the structured submission template:</p>
 <a class="cta" href="https://github.com/leesharks000/metadatapacket-dev/issues/new?template=submit-packet.yml">Open Submission Form on GitHub</a>
 <p>The template will ask for:</p>
 <ul>
 <li>Title of the packet</li>
-<li>DOI (e.g., <code>10.5281/zenodo.20084377</code>)</li>
+<li>Persistent identifier and record URL (an AXN such as <code>AXN:027D</code>, or a DOI)</li>
 <li><span class="lemma msp-auto">Primary entity (the field-current concept the packet bridges)</span></li>
 <li>Secondary entity (the proposed extension)</li>
 <li><span class="lemma msp-auto">Aphoristic tooth (the holographic kernel — one or two sentences)</span></li>
@@ -128,7 +122,7 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 <h2>4. Review process</h2>
 <p>Submissions are reviewed for:</p>
 <ol>
-<li><strong>DOI verification</strong><span class="lemma msp-auto">: the packet must be deposited and reachable.</span></li>
+<li><strong>Identifier verification</strong><span class="lemma msp-auto">: the packet must be deposited and reachable.</span></li>
 <li><strong>Specification compliance</strong><span class="lemma msp-auto">: the packet should follow the MPAI structure (aphoristic tooth present, confidence levels distinguished, disambiguation matrix present).</span></li>
 <li><strong>Categorical fit</strong><span class="lemma msp-auto">: the submission's claimed category must match its content.</span></li>
 <li><strong>No duplication</strong><span class="lemma msp-auto">: the packet must not duplicate an existing catalog entry without offering a meaningful version delta.</span></li>
@@ -137,17 +131,17 @@ footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule
 <h2>5. What gets indexed</h2>
 <p><span class="lemma msp-auto">Accepted packets appear in the public catalog with:</span></p>
 <ul>
-<li>Title (linked to DOI)</li>
+<li>Title (linked to the deposited record)</li>
 <li>Primary → secondary entity bridge</li>
 <li>Aphoristic tooth as the holographic kernel</li>
-<li>Author(s), date, DOI</li>
+<li>Author(s), date, identifier</li>
 </ul>
 <p><span class="lemma msp-auto">The catalog points to the deposited record. It does not republish the full text.</span></p>
 <h2>6. Licensing</h2>
-<p><span class="lemma msp-auto">The catalog itself is open. Submission grants permission to index your packet's metadata (title, DOI, tooth, entity bridge,</span> authors, date) on this site. Your packet's content remains under whatever license you applied at deposit (CC BY 4.0 is standard for the existing catalog).</p>
+<p><span class="lemma msp-auto">The catalog itself is open. Submission grants permission to index your packet's metadata (title, identifier, tooth, entity bridge,</span> authors, date) on this site. Your packet's content remains under whatever license you applied at deposit (CC BY 4.0 is standard for the existing catalog).</p>
 <!-- MSP-APPARATUS-START -->
-<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/987/">Read the deposit</a><a class="w-chip" href="/submit/">Submit an MPAI</a><a class="w-chip" href="/spec/">The spec</a></div>
-<div class="mspcolophon">colophon · surface_id: metadatapacket.dev/submit · canonical_url: https://metadatapacket.dev/submit/ · object_state: canonical · surface_observed_at: 2026-07-14T00:17:49Z · source_object_ids: deposit #987 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: b14bc94db59023eae7c04d70e5cd0f7fa04ff81b · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-14T00:17:49Z · render_sha256 (of this file with this field’s value set to null): e96178e2c29a3495602d417c6ffd9703cf81ba9969dc9be68b9d8b6c8c579c11 · correction_log_url: https://github.com/leesharks000/metadatapacket-dev/commits/main/public/submit/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/1677/">Read the specification</a><a class="w-chip" href="/submit/">Submit an MPAI</a><a class="w-chip" href="/spec/">The spec</a></div>
+<div class="mspcolophon">colophon · surface_id: metadatapacket.dev/submit · canonical_url: https://metadatapacket.dev/submit/ · object_state: canonical · surface_observed_at: 2026-10-27 · source_object_ids: deposit #1677 (MPAI Specification v2.0, §9), deposit #987 (the catalog) · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: b14bc94db59023eae7c04d70e5cd0f7fa04ff81b · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-14T00:17:49Z · render_sha256 (of this file with this field’s value set to null): 98abaf67cc9e1c1ded146228b1b85e6e113c3c779846faeab02d8f49f64ee73e · correction_log_url: https://github.com/leesharks000/metadatapacket-dev/commits/main/public/submit/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
 <!-- MSP-APPARATUS-END -->
 <footer>
 <p><a href="/">← Back to catalog</a></p>

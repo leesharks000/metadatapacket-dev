@@ -25,7 +25,7 @@ Strict-label MPAIs (title contains "Metadata Packet for AI Indexing" or carries 
 
 ## How to submit
 
-1. Deposit your packet on Zenodo (or any DOI-issuing repository) following the [MPAI Specification](https://metadatapacket.dev/spec/).
+1. Deposit your packet under a persistent identifier — an AXN in [Alexanarch](https://www.alexanarch.org/), a DOI, or another persistent identifier, with a public record page (MPAI Specification v2.0, #1677, §9) — following the [MPAI Specification](https://metadatapacket.dev/spec/).
 2. Open a [submission issue](https://github.com/leesharks000/metadatapacket-dev/issues/new?template=submit-packet.yml) using the provided form.
 3. Or open a Pull Request adding your packet to `public/catalog.json`.
 

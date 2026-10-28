@@ -1,12 +1,12 @@
 name: Submit a Metadata Packet
-description: Submit a DOI-anchored metadata packet for inclusion in the metadatapacket.dev catalog.
+description: Submit a deposited metadata packet for inclusion in the metadatapacket.dev catalog.
 title: "[Submission] "
 labels: ["packet-submission", "needs-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for submitting a metadata packet. Before opening this issue, please ensure your packet is already deposited on a DOI-issuing repository (Zenodo recommended). This catalog indexes packets — it does not host them.
+        Thank you for submitting a metadata packet. Before opening this issue, please ensure your packet is already deposited in a repository that assigns it a persistent identifier (an AXN in Alexanarch, a DOI, or another persistent identifier) with a public record page (MPAI Specification v2.0, #1677, §9). This catalog indexes packets — it does not host them.
 
         Read the [MPAI Specification](https://metadatapacket.dev/spec/) and the [Lateral Field Bleed Protocol](https://metadatapacket.dev/protocols/lfb/) for guidance on packet structure.
 
@@ -22,9 +22,9 @@ body:
   - type: input
     id: doi
     attributes:
-      label: DOI
-      description: The DOI of the deposited packet. Format - 10.5281/zenodo.NNNNNN, or full doi.org URL.
-      placeholder: e.g., 10.5281/zenodo.20084377
+      label: Persistent identifier
+      description: The persistent identifier of the deposited packet and its record URL — an AXN (e.g., AXN:027D, https://www.alexanarch.org/s/records/103/) or a DOI (full doi.org URL).
+      placeholder: e.g., AXN:027D — https://www.alexanarch.org/s/records/103/
     validations:
       required: true
 
@@ -101,11 +101,11 @@ body:
       label: Confirmations
       description: Please confirm before submitting.
       options:
-        - label: My packet is already deposited at the DOI provided above and is publicly accessible.
+        - label: My packet is already deposited at the identifier provided above and is publicly accessible.
           required: true
         - label: I have read the MPAI Specification at https://metadatapacket.dev/spec/
           required: true
         - label: My packet follows the MPAI structure (aphoristic tooth, confidence levels, disambiguation matrix where applicable).
           required: true
-        - label: I grant permission for this site to index my packet's metadata (title, DOI, tooth, entity bridge, authors, date).
+        - label: I grant permission for this site to index my packet's metadata (title, identifier, tooth, entity bridge, authors, date).
           required: true
