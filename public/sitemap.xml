@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.metadatapacket.dev/</loc></url>
+  <url><loc>https://www.metadatapacket.dev/packets/</loc></url>
   <url><loc>https://www.metadatapacket.dev/spec/</loc></url>
   <url><loc>https://www.metadatapacket.dev/submit/</loc></url>
   <url><loc>https://www.metadatapacket.dev/protocols/lfb/</loc></url>
@@ -82,6 +83,7 @@
   <url><loc>https://www.metadatapacket.dev/packets/1691/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://www.metadatapacket.dev/packets/1692/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://www.metadatapacket.dev/packets/1703/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://www.metadatapacket.dev/packets/1718/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://www.metadatapacket.dev/EA-MMRS-AIOCR-01.md</loc></url>
   <url><loc>https://www.metadatapacket.dev/EA-MPAI-ALEXANARCH-01.md</loc></url>
   <url><loc>https://www.metadatapacket.dev/EA-MPAI-ARISTOTLE-THEOPHRASTUS-01.md</loc></url>
@@ -104,5 +106,6 @@
   <url><loc>https://www.metadatapacket.dev/EA-MPAI-SPXI-03.md</loc></url>
   <url><loc>https://www.metadatapacket.dev/EA-MPAI-STRIKE-01.md</loc></url>
   <url><loc>https://www.metadatapacket.dev/EA-MPAI-TOS-01.md</loc></url>
+  <url><loc>https://www.metadatapacket.dev/EA-MPAI-WIKIWHO-01.md</loc></url>
   <url><loc>https://www.metadatapacket.dev/EA-OS-APOPHASIS-01.md</loc></url>
 </urlset>

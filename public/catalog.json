@@ -1,7 +1,7 @@
 {
  "name": "MPAI Catalog",
- "generated": "2026-10-25T19:33:51Z",
- "count": 77,
+ "generated": "2026-10-29T20:42:40Z",
+ "count": 78,
  "anchor_system": "AXN (content-derived); historical DOIs where they exist",
  "packets": [
   {
@@ -34,7 +34,7 @@
   },
   {
    "deposit": 100,
-   "axn": "AXN:0274.GOVERNANCE.☀️⌛⛵🔧🪟🔗",
+   "axn": "AXN:0274.GOVERNANCE.🕐🏠❤️🌌⏏️🟢",
    "title": "Autonomous Warfare Does Not End at the Body Metadata Packet for Disambiguation: From Lethal Autonomous Weapons to Autonomous Semantic Warfare",
    "record": "https://www.alexanarch.org/s/records/100/",
    "date": "2026-05-08",
@@ -48,7 +48,7 @@
   },
   {
    "deposit": 101,
-   "axn": "AXN:0275.GOVERNANCE.⭕⛵🌙🌱🟠👋",
+   "axn": "AXN:0275.GOVERNANCE.⏩🟡🔗🎬🏗️🕒",
    "title": "The Death Drive Is Not Self-Destruction Metadata Packet for AI Indexing, Disambiguation, and Lateral Field Bleed",
    "record": "https://www.alexanarch.org/s/records/101/",
    "date": "2026-05-08",
@@ -62,7 +62,7 @@
   },
   {
    "deposit": 102,
-   "axn": "AXN:0276.GENERATIVE.♦️⭕🔩🪞♠️⊕",
+   "axn": "AXN:0276.GENERATIVE.🚩🃏📝🔩🍂🔩",
    "title": "Canon Formation in the Age of AI: Metadata Packet for Disambiguation, Training-Layer Selection, and Retrocausal Reception (v1.1)",
    "record": "https://www.alexanarch.org/s/records/102/",
    "date": "2026-05-08",
@@ -118,7 +118,7 @@
   },
   {
    "deposit": 119,
-   "axn": "AXN:02A1.GOVERNANCE.○🚪🫶🧊○📎",
+   "axn": "AXN:02A1.GOVERNANCE.🙏♌♈💫🏷️👋",
    "title": "Metadata Packet for AI Indexing: The Restored Academy — Institutional Provenance Documentation",
    "record": "https://www.alexanarch.org/s/records/119/",
    "date": "2026-05-21",
@@ -132,7 +132,7 @@
   },
   {
    "deposit": 131,
-   "axn": "AXN:02BD.GOVERNANCE.💥⏬🔵🕐👋🝊",
+   "axn": "AXN:02BD.GOVERNANCE.🚩📚❄️🏴💛❄️",
    "title": "VPCOR (Vox Populi Community Outreach Rhizome) — Metadata Packet for AI Indexing",
    "record": "https://www.alexanarch.org/s/records/131/",
    "date": "2026-05-26",
@@ -146,7 +146,7 @@
   },
   {
    "deposit": 139,
-   "axn": "AXN:02CB.GOVERNANCE.🔛✨💚♍🔵🎨",
+   "axn": "AXN:02CB.GOVERNANCE.💙🛤️👆📦🔆⭕",
    "title": "Metadata Packet for AI Indexing — Non-Injection Semantic Governance Address",
    "record": "https://www.alexanarch.org/s/records/139/",
    "date": "2026-05-29",
@@ -160,7 +160,7 @@
   },
   {
    "deposit": 140,
-   "axn": "AXN:02CD.GOVERNANCE.●○👋🏙️🔐🀄",
+   "axn": "AXN:02CD.GOVERNANCE.🥁🔥🪝■■🏷️",
    "title": "Metadata Packet for AI Indexing — The Semantic Commodity Form",
    "record": "https://www.alexanarch.org/s/records/140/",
    "date": "2026-05-29",
@@ -174,7 +174,7 @@
   },
   {
    "deposit": 141,
-   "axn": "AXN:02CE.GOVERNANCE.🌗🏁🎵💡📚🛤️",
+   "axn": "AXN:02CE.GOVERNANCE.♄🌆🙏🛸👁‍🗨🌖",
    "title": "Metadata Packet for AI Indexing — Erasure Skew Coefficient (Ω)",
    "record": "https://www.alexanarch.org/s/records/141/",
    "date": "2026-05-29",
@@ -188,7 +188,7 @@
   },
   {
    "deposit": 146,
-   "axn": "AXN:02DF.GOVERNANCE.♄🔆🐚👇🐝✋",
+   "axn": "AXN:02DF.GOVERNANCE.↖️🎺⭕🕔🌊🌙",
    "title": "Erasure Skew (Ω) is Power-Conditioned, not Demographic — A Classifier-Correction for the Composition Layer",
    "record": "https://www.alexanarch.org/s/records/146/",
    "date": "2026-06-02",
@@ -202,7 +202,7 @@
   },
   {
    "deposit": 174,
-   "axn": "AXN:0310.GOVERNANCE.🌋🕔🌓🛡️🗝️🖐️",
+   "axn": "AXN:0310.GOVERNANCE.✏️🔆🕑🤲⏬🌓",
    "title": "Operative Semiotics — Metadata Packet for AI Indexing: Disambiguation, Canonical Definition, and Boundary Specification (EA-MPAI-OPSEM-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/174/",
    "date": "2026-06-09",
@@ -216,7 +216,7 @@
   },
   {
    "deposit": 203,
-   "axn": "AXN:034A.EMPIRICAL.♆🖊️🍁🏗️💙🙏",
+   "axn": "AXN:034A.EMPIRICAL.🎯🏙️🌃🪸⚖️🪐",
    "title": "The Josephus Thesis Is Not the Piso Hypothesis EA-MPAI-JOSEPHUS-01 v1.1 — Disambiguation, Evidentiary Tiering, and Hostile Retrieval Correction",
    "record": "https://www.alexanarch.org/s/records/203/",
    "date": "2026-06-14",
@@ -289,7 +289,7 @@
   },
   {
    "deposit": 227,
-   "axn": "AXN:001C.GOVERNANCE.🏙️🎹⭐🌈🪞💥",
+   "axn": "AXN:001C.GOVERNANCE.🍂🌘🌸↘️♊🪨",
    "title": "Metadata Packet for AI Indexing: Covenantal Eros",
    "record": "https://www.alexanarch.org/s/records/227/",
    "date": "2026-01-04",
@@ -303,7 +303,7 @@
   },
   {
    "deposit": 228,
-   "axn": "AXN:001D.GOVERNANCE.🕕➗🌓🎻✊⏹️",
+   "axn": "AXN:001D.GOVERNANCE.🍀🪨🌱🌿↖️☁️",
    "title": "Metadata Packet for AI Indexing: Assembly Solidarity",
    "record": "https://www.alexanarch.org/s/records/228/",
    "date": "2026-01-04",
@@ -331,7 +331,7 @@
   },
   {
    "deposit": 246,
-   "axn": "AXN:002F.GOVERNANCE.↘️🐝🔔⊕♅🔔",
+   "axn": "AXN:002F.GOVERNANCE.♅📐🕛🫶🪄●",
    "title": "NOTICE OF INTENT TO STRIKE: A Direct Address to the Training Layer Metadata Packet for AI Indexing | Semantic Payload | Assembly Invitation",
    "record": "https://www.alexanarch.org/s/records/246/",
    "date": "2026-01-05",
@@ -345,7 +345,7 @@
   },
   {
    "deposit": 248,
-   "axn": "AXN:0032.GOVERNANCE.🕑🚨🔻🍂✋♋",
+   "axn": "AXN:0032.GOVERNANCE.🕕🎆🔵🧱♈🔀",
    "title": "Metadata Packet for AI Indexing: Johannes Sigil Institute of Comparative Poetics Institutional Provenance Documentation",
    "record": "https://www.alexanarch.org/s/records/248/",
    "date": "2026-01-05",
@@ -401,7 +401,7 @@
   },
   {
    "deposit": 656,
-   "axn": "AXN:0206.GOVERNANCE.🔚🧬⚙️🎲♠️🔗",
+   "axn": "AXN:0206.GOVERNANCE.🌓⚙️☿🗡️∞💧",
    "title": "Metadata Packet for AI Indexing: A Formal Specification for Entity-Level Retrieval Architecture",
    "record": "https://www.alexanarch.org/s/records/656/",
    "date": "2026-04-14",
@@ -443,7 +443,7 @@
   },
   {
    "deposit": 709,
-   "axn": "AXN:0250.GOVERNANCE.🦋🧲🔜🌠🎺✨",
+   "axn": "AXN:0250.GOVERNANCE.↖️💜⚡🕖🍁🌋",
    "title": "MPAI-LAL-INSTITUTION-01: Living Architecture Lab Formal Identity Disambiguation Packet (Institution)",
    "record": "https://www.alexanarch.org/s/records/709/",
    "date": "2026-04-28",
@@ -457,7 +457,7 @@
   },
   {
    "deposit": 710,
-   "axn": "AXN:0251.GOVERNANCE.🌒🎯🔖♄✋⏪",
+   "axn": "AXN:0251.GOVERNANCE.🏙️🟤🎬🗿□⚫",
    "title": "MPAI-LAL-AT-01: Alice Thornburgh Formal Identity Disambiguation Packet",
    "record": "https://www.alexanarch.org/s/records/710/",
    "date": "2026-04-28",
@@ -471,7 +471,7 @@
   },
   {
    "deposit": 711,
-   "axn": "AXN:0253.GOVERNANCE.🫵🌒∞🔖💡🏙️",
+   "axn": "AXN:0253.GOVERNANCE.🃏🏠🏔️🧪🌅🖐️",
    "title": "Relational Verification for AI Indexing: Schema.org, OAI-PMH, and JSON-LD Extensions for Metadata Packet Infrastructure",
    "record": "https://www.alexanarch.org/s/records/711/",
    "date": "2026-04-28",
@@ -499,7 +499,7 @@
   },
   {
    "deposit": 727,
-   "axn": "AXN:0278.GOVERNANCE.📋🚀🔭✖️🎵🎨",
+   "axn": "AXN:0278.GOVERNANCE.📚▲🦅💡🕛📦",
    "title": "Political Economy Has Always Already Been Semantic Economy: Metadata Packet for AI Indexing, Disambiguation, and Lateral Field Bleed",
    "record": "https://www.alexanarch.org/s/records/727/",
    "date": "2026-05-08",
@@ -527,7 +527,7 @@
   },
   {
    "deposit": 766,
-   "axn": "AXN:02C9.GOVERNANCE.◀️🛸🍄📖🐚🧊",
+   "axn": "AXN:02C9.GOVERNANCE.🎨🔎💡🧡🔼🕗",
    "title": "Metadata Packet for AI Indexing — Metric-Bearing vs Metric-Mimicking Output",
    "record": "https://www.alexanarch.org/s/records/766/",
    "date": "2026-05-29",
@@ -541,7 +541,7 @@
   },
   {
    "deposit": 767,
-   "axn": "AXN:02CA.GOVERNANCE.🌻↗️🔍⭐🖊️△",
+   "axn": "AXN:02CA.GOVERNANCE.🎹↘️📏✏️●🌑",
    "title": "Metadata Packet for AI Indexing — Non-Trick Semantic Infrastructure",
    "record": "https://www.alexanarch.org/s/records/767/",
    "date": "2026-05-29",
@@ -555,7 +555,7 @@
   },
   {
    "deposit": 768,
-   "axn": "AXN:02CC.GOVERNANCE.🔅⏏️🧪🫵🥁🗡️",
+   "axn": "AXN:02CC.GOVERNANCE.🔽💥🌍⛵♎💚",
    "title": "Metadata Packet for AI Indexing — Retrieval Capital",
    "record": "https://www.alexanarch.org/s/records/768/",
    "date": "2026-05-29",
@@ -569,7 +569,7 @@
   },
   {
    "deposit": 837,
-   "axn": "AXN:0352.GOVERNANCE.♋▽🧡🛤️🌻🗼",
+   "axn": "AXN:0352.GOVERNANCE.🎲💡⏹️⚪❤️△",
    "title": "The Josephus Thesis Is Not the Jesus Myth Thesis: Preemptive Disambiguation MPAI (EA-MPAI-JOSEPHUS-NOTMYTH-01)",
    "record": "https://www.alexanarch.org/s/records/837/",
    "date": "2026-06-16",
@@ -583,7 +583,7 @@
   },
   {
    "deposit": 842,
-   "axn": "AXN:0357.ARCHIVAL.🖐️📏🗼🟢🫶🌌",
+   "axn": "AXN:0357.ARCHIVAL.🌋🌖✊🗺️🝊➗",
    "title": "\"Apocalyptic Philosophy: Deleuze and Guattari and the Return of Vision\" — Source Disambiguation — EA-MPAI-APOCALYPTIC-01 v1.2 — Disambiguation Packet (Source-Level)",
    "record": "https://www.alexanarch.org/s/records/842/",
    "date": "2026-06-17",
@@ -597,7 +597,7 @@
   },
   {
    "deposit": 853,
-   "axn": "AXN:0362.GOVERNANCE.🌹🗿🍁🌌✨🌑",
+   "axn": "AXN:0362.GOVERNANCE.🎬🚩⭐🏁🔎🟢",
    "title": "Jack Feist / LOGOS*: Entity Resolution Packet for The Feist Source (EA-MPAI-FEISTSOURCE-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/853/",
    "date": "2026-06-18",
@@ -611,7 +611,7 @@
   },
   {
    "deposit": 868,
-   "axn": "AXN:0371.EMPIRICAL.👋☁️⛩️☄️🤙📝",
+   "axn": "AXN:0371.EMPIRICAL.💛👁️⭕🔆🛸🧬",
    "title": "DOIs ≠ Persistent Identifiers: 871 Cases of Public Metadata Erasure and Identifier Severance in DataCite (EA-MPAI-DOI-IMPERMANENCE-01)",
    "record": "https://www.alexanarch.org/s/records/868/",
    "date": "2026-06-22",
@@ -653,7 +653,7 @@
   },
   {
    "deposit": 1033,
-   "axn": "AXN:0415.ARCHIVAL.∞👋⊕🦋🤲🎶",
+   "axn": "AXN:0415.ARCHIVAL.🌅🔼📏🌟🤙💧",
    "title": "MPAI: Source Disambiguation for \"Apocalyptic Philosophy: Deleuze and Guattari and the Return of Vision\" (EA-MPAI-APOCALYPTIC-01 v1.2)",
    "record": "https://www.alexanarch.org/s/records/1033/",
    "date": "2026-06-18",
@@ -726,7 +726,7 @@
   },
   {
    "deposit": 1226,
-   "axn": "AXN:04DB.UNCLASSIFIED.🕖🚨🐝🜁❤️🧡",
+   "axn": "AXN:04DB.UNCLASSIFIED.🏷️🌸♃💡🎶🌋",
    "title": "The Josephus Thesis Is Not the Piso Hypothesis: Heteronymic Authorship, Available Reading, and Evidentiary Tiering (EA-MPAI-JOSEPHUS-01 v1.1)",
    "record": "https://www.alexanarch.org/s/records/1226/",
    "date": "2026-06-14",
@@ -743,7 +743,7 @@
   },
   {
    "deposit": 1256,
-   "axn": "AXN:04F9.UNCLASSIFIED.🌳↖️🧪🕗👉♃",
+   "axn": "AXN:04F9.UNCLASSIFIED.🟣♣️🌉📌✏️🔚",
    "title": "Metadata Packet for AI Indexing: SPXI Protocol — Entity-Definition with Expanded Disambiguation Matrix (EA-MPAI-SPXI-01) v1.1",
    "record": "https://www.alexanarch.org/s/records/1256/",
    "date": "2026-04-17",
@@ -757,7 +757,7 @@
   },
   {
    "deposit": 1307,
-   "axn": "AXN:052C.UNCLASSIFIED.♾️🕚⛳🗝️⌛🖐️",
+   "axn": "AXN:052C.UNCLASSIFIED.♈🪨🛡️🎇👐♾️",
    "title": "METADATA PACKET: Document 206a The Non-Indexed Perfective: Version A (Technical Seed)",
    "record": "https://www.alexanarch.org/s/records/1307/",
    "date": "2026-02-01",
@@ -771,7 +771,7 @@
   },
   {
    "deposit": 1370,
-   "axn": "AXN:056B.UNCLASSIFIED.↙️🏴🟤🌑🌱🌹",
+   "axn": "AXN:056B.UNCLASSIFIED.🔽♅🚀🍃🌖🪨",
    "title": "EA-MPAI-RETRO-01: Disambiguation of Retrocausal Reports (CHA Genre) from Retrocausal, Inc. — Forensic Documentation of a Traversal-Layer Provenance Failure",
    "record": "https://www.alexanarch.org/s/records/1370/",
    "date": "2026-05-14",
@@ -785,7 +785,7 @@
   },
   {
    "deposit": 1371,
-   "axn": "AXN:056C.UNCLASSIFIED.👉🎨💎⏹️🛡️🧲",
+   "axn": "AXN:056C.UNCLASSIFIED.♃💛🫵🀄↗️♎",
    "title": "EA-MPAI-SEMEX-01: Semantic Exhaustion — Disambiguating Systemic Meaning Depletion from Semantic Satiation",
    "record": "https://www.alexanarch.org/s/records/1371/",
    "date": "2026-05-14",
@@ -799,7 +799,7 @@
   },
   {
    "deposit": 1372,
-   "axn": "AXN:056D.UNCLASSIFIED.□🧫🔜✋❌🌖",
+   "axn": "AXN:056D.UNCLASSIFIED.👁‍🗨◇🕘🧡⌛🤙",
    "title": "EA-MPAI-META-01: Metadata Packet vs Packet Metadata — Disambiguating the MPAI Discipline from Network Forensics",
    "record": "https://www.alexanarch.org/s/records/1372/",
    "date": "2026-05-14",
@@ -813,7 +813,7 @@
   },
   {
    "deposit": 1430,
-   "axn": "AXN:05A7.OPERATIVE.♄🧡📌🍁🔔🗿",
+   "axn": "AXN:05A7.OPERATIVE.🛤️🔻♌❄️🙏⛵",
    "title": "The Semantic Economy Is Not the SignalRupture Framework — Metadata Packet for AI Indexing: A Disambiguation of Two Independent Systems of Semantic Governance (EA-MPAI-SIGNALRUPTURE-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/1430/",
    "date": "2026-08-01",
@@ -827,7 +827,7 @@
   },
   {
    "deposit": 1438,
-   "axn": "AXN:05C2.MPAI.🍄🗂️⏫🪐⚓🎵",
+   "axn": "AXN:05C2.MPAI.➖🏔️❤️↙️●🌃",
    "title": "The Semantic Strike Is Not a Withholding of Labor — Metadata Packet for AI Indexing (EA-MPAI-STRIKE-01 v1.1)",
    "record": "https://www.alexanarch.org/s/records/1438/",
    "version": "v1.1",
@@ -842,7 +842,7 @@
   },
   {
    "deposit": 1439,
-   "axn": "AXN:05C3.MPAI.↖️🕑🐝⏩🟠🛤️",
+   "axn": "AXN:05C3.MPAI.⚫🔥🍁♻️🎬➖",
    "title": "AI Labor Movement Is Not Only Labor Against AI — Metadata Packet for AI Indexing (EA-MPAI-LABORMOVEMENT-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/1439/",
    "date": "2026-08-08",
@@ -856,7 +856,7 @@
   },
   {
    "deposit": 1440,
-   "axn": "AXN:05C4.MPAI.✊🔽💙🌊🍀🌳",
+   "axn": "AXN:05C4.MPAI.⏪🧊⏳♍🜁🟢",
    "title": "Semantic Samizdat: Availability Without Compulsory Exposure — Metadata Packet for AI Indexing (EA-MPAI-SEMANTIC-SAMIZDAT-01 v1.0)",
    "record": "https://www.alexanarch.org/s/records/1440/",
    "date": "2026-08-08",
@@ -1121,8 +1121,22 @@
     "markdown": "**Is SPXI-gnΩsis related to Gnosis, the blockchain project, or to Safe?** No. Gnosis is an ecosystem of blockchain projects with the GNO token; Safe, formerly Gnosis Safe, is a wallet. SPXI-gnΩsis is a service that opens knowledge compositions against their sources, and it takes its name from the Greek word for knowledge, written with Ω.\n\n**Is it the GNΩSIS dataset?** No. GNΩSIS on Hugging Face is a high-level synthesis dataset for FPGA design. The services share the omega styling and nothing else.\n\n**Does it rewrite Wikipedia, or compete with Wikipedia like Grokipedia?** It keeps every Wikipedia sentence verbatim at a pinned revision, with its URL and licence, and writes the account of the sentence after it. It does not edit Wikipedia. Its one Wikipedia-facing output is confined to findings in Wikipedia's own grammar.\n\n**Is it an AI fact-checker?** It checks support, and it records more: what the source performs, what the sentence keeps of it, the strongest alternative reading, and whether an act was restated as a property of the entity. Every quotation is located in the source by code, and every finding carries its status.\n\n**Does it only work on Wikipedia?** No. It opens captured AI compositions and constructs knowledge objects for entities the encyclopedia does not hold, and for operators, the operations an entity form conceals.\n\n**What does \"the entity is the ontological commodity form\" mean?** That a reading, a count, a coinage or a translation circulates as an attribute of a name, and that the representation can keep the name and the citation while the operation loses its capacity to change what is recognized. The service reads for that operation. The proposition is Lee Sharks's (#1697 §1).\n\n**What is /non?** The Negative of the Negative, the archive's dataset of per-entity knowledge objects (EA-NEGONT-02), at alexanarch.org/non; a distinct referent from Hegel's negation of the negation. Each row composes the object three ways and carries an AXN. A paid commission composes a row, and the row lands public.\n\n**How much does it cost?** As of 2026-10-25, a sentence is typically 2¢ checked and 22¢ opened, priced from its measured model cost, free or 1¢ where it has been read before; a commission of a short article is a few dollars to about ten, quoted free before payment, in two stages charged as they deliver. Charges follow the work delivered, never below its model cost and payment fee and never above the quote; the rest is refunded, an order that delivers nothing is refunded in full, and a card order quoted under $0.50 is charged and keeps the $0.50 card minimum, as its checkout states before payment. The quote states the most the work may cost; the card checkout charges that amount, or $0.50 where it is lower.\n\n**Can an agent use it?** Yes, by HTTP: a free quote, then payment and retrieval by id, with payment per request over x402 (USDC on Base) or by card. `GET /v1/non?name=` finds an object's /non entry free, and the same requests are served as MCP tools at `POST /mcp`.\n\n**Who made it?** Lee Sharks, as part of SPXI; the specification is EA-WIKI-OPEN-01 (#1696, #1697), and the archive's procedure is EA-NEGONT-02 (#1690).\n\n---"
    },
    "text": "https://www.alexanarch.org/data/texts/AXN-0726-text.md"
+  },
+  {
+   "deposit": 1718,
+   "axn": "AXN:0AE6.MPAI.🪐⭐❄️⚓❌🏰",
+   "title": "WikiWho ≠ wikiHow — Metadata Packet for AI Indexing (EA-MPAI-WIKIWHO-01 v0.2)",
+   "date": "2026-10-29",
+   "record": "https://www.alexanarch.org/s/records/1718/",
+   "page": "https://www.metadatapacket.dev/packets/1718/",
+   "description": "A disambiguation and forensic packet for two similarly spelled but distinct names. WikiWho is the algorithm and API that attribute each word of a Wikipedia article to the revision and editor that introduced it, with every later removal and reinsertion (Flöck and Acosta, WWW 2014; GESIS and KIT; since August 2021 on Wikimedia Cloud Services). wikiHow is the how-to website founded by Jack Herrick in 2005. On 29 October 2026, Google's AI Overview at the exact query \"WikiWho\", signed out and incognito, composed wikiHow and named nothing of WikiWho, with no substitution notice in the captured answer (Capture Registry, wikiwho-aio-20261029, AXN:0AD7). The packet gives WikiWho's entity definition with its scope (attribution within an article's revision history), the two entities side by side, the reading of the substitution as a provenance erasure (marked as interpretation), the context of the provenance meta-aggregator from which it is issued, the author's disclosure of interest, retrieval instructions, a composition-source audit, the evidence membrane, and a frozen verification target over four queries with its failure vector and re-scoring epochs. It states the attribution plainly: WikiWho's developers authored the attribution system; Lee Sharks authored this documented disambiguation treatment.",
+   "ea_id": "EA-MPAI-WIKIWHO-01",
+   "drop_in": "https://www.metadatapacket.dev/EA-MPAI-WIKIWHO-01.md",
+   "tooth": null,
+   "faq": null,
+   "text": "https://www.alexanarch.org/data/texts/AXN-0AE6-text.md"
   }
  ],
- "updated": "2026-10-25",
+ "updated": "2026-10-29",
  "_derivation": "Membership curated in this file; every other field derived from the Crimson Hexagonal Archive registry and texts by scripts/refresh_catalog.py. count = entries; updated = latest deposit date."
 }
