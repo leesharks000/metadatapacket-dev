@@ -239,6 +239,7 @@ def main():
     s = re.sub(r'(<a href="#build">Build a packet<span>)\d+', rf'\g<1>{n_build}', s)
     s = re.sub(r'(<h2 id="methodology">Methodology &amp; Specifications <span class="count">)\d+', rf'\g<1>{n_meth}', s)
     s = re.sub(r'(<section class="category" id="disambiguation">\s*<h2 class="category-title">[^<]*<span class="category-count">)\d+', rf'\g<1>{n_dis}', s)
+    s = re.sub(r'(<section class="category" id="disambiguation">\s*<div class="packets">\s*<h2>Disambiguation Packets <span class="count">)\d+', rf'\g<1>{n_dis}', s)
     link = '<p class="all-packets" style="margin:.6em 0 0"><a href="/packets/">Every packet on its own page, with its full text &rarr;</a></p>'
     if 'class="all-packets"' not in s:
         s = re.sub(r'(<div class="subtitle">Metadata Packet for AI Indexing · [^<]*</div>)', lambda m: m.group(1) + link, s, count=1)
