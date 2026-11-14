@@ -241,11 +241,14 @@ def main():
     s = re.sub(r'(<section class="category" id="disambiguation">\s*<h2 class="category-title">[^<]*<span class="category-count">)\d+', rf'\g<1>{n_dis}', s)
     s = re.sub(r'(<section class="category" id="disambiguation">\s*<div class="packets">\s*<h2>Disambiguation Packets <span class="count">)\d+', rf'\g<1>{n_dis}', s)
     link = '<p class="all-packets" style="margin:.6em 0 0"><a href="/packets/">Every packet on its own page, with its full text &rarr;</a></p>'
+    hlink = '<p class="all-holograms" style="margin:.3em 0 0"><a href="/holograms/">The framework holograms: map and kernel, with their readings &rarr;</a></p>'
+    if 'class="all-holograms"' not in s and 'class="all-packets"' in s:   # 2026-11-14: the holograms page (operator, 16:51)
+        s = re.sub(r'(<p class="all-packets"[^>]*>.*?</p>)', lambda m: m.group(1) + hlink, s, count=1, flags=re.S)
     if 'class="all-packets"' not in s:
         s = re.sub(r'(<div class="subtitle">Metadata Packet for AI Indexing · [^<]*</div>)', lambda m: m.group(1) + link, s, count=1)
     ip.write_text(s, encoding="utf-8")
     # 5. sitemap
-    urls = [f"{SITE}/", f"{SITE}/packets/", f"{SITE}/spec/", f"{SITE}/submit/", f"{SITE}/protocols/lfb/", f"{SITE}/catalog.json"]
+    urls = [f"{SITE}/", f"{SITE}/packets/", f"{SITE}/holograms/", f"{SITE}/spec/", f"{SITE}/submit/", f"{SITE}/protocols/lfb/", f"{SITE}/catalog.json"]
     urls += [p["page"] for p in P] + [f"{SITE}/{n}" for n in served]
     lastmod = {p["page"]: p.get("date") for p in P}
     body = "\n".join(f"  <url><loc>{u}</loc>" + (f"<lastmod>{lastmod[u]}</lastmod>" if lastmod.get(u) else "") + "</url>" for u in urls)
